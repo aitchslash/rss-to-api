@@ -1,0 +1,82 @@
+add pubdate & headliner + with description openers to show object - done
+band_dict is case sensitive - done
+sort show array by date - done
+
+
+write api - DONE
+read - band, venue, date - DONE
+
+write get by date (default=today?) - DONE
+write sort by venue - done
+
+fix apostrophe (e.g. Lee's Palace) - DONE
+
+endpoint newly added limit 10 - DONE
+
+data_last_fetched, if more than a day: refresh data/cache  -- DONE
+write update & revert route
+wire up actual request - DONE
+
+use update in data getter -- DONE
+
+add status codes to all returns
+- might want to look up all codes 400 -> 404
+
+memcache + flush
+
+deploy on gcp
+
+write email to JS
+
+venue and band are case insensitive both for gets and responses.
+
+
+
+entry example:
+{
+	'published_parsed': time.struct_time(tm_year=2019, tm_mon=9, tm_mday=9, tm_hour=20, tm_min=42, tm_sec=31, tm_wday=0, tm_yday=252, tm_isdst=0), 
+	'summary': 'at Lee’s Palace', 
+	'guidislink': False, 
+	'links': [{'href': 'http://justshows.com/toronto/2019/10/26/the-sadies/42361/', 'rel': 'alternate', 'type': 'text/html'}], 
+	'summary_detail': {'base': '', 'type': 'text/html', 'value': 'at Lee’s Palace', 'language': None}, 
+	'id': 'http://justsho.ws/wop', 
+	'title': 'October 26, 2019 — The Sadies', 
+	'link': 'http://justshows.com/toronto/2019/10/26/the-sadies/42361/', 
+	'title_detail': {'base': '', 'type': 'text/plain', 'value': 'October 26, 2019 — The Sadies', 'language': None}, 
+	'published': 'Mon, 09 Sep 2019 16:42:31 -0400'}
+
+
+date_added from entries['published_parsed'] in a time.struct_time
+	- may need to import time module
+	- could use date string: entries['published']
+
+check last build date
+	- check other things to verify new data is OK.
+if new:
+	compare new to old
+		-generate new listings - "NEWLY ADDED" 
+	update db/dicts/arrays
+
+
+tl;dr
+I made a Read only API from your Toronto JustShows RSS, I hope you don't mind. Regardless if it goes anywhere or not I'll be sure to credit you.  If you like the API and want to steal it or suggest some other endpoints or other improvements feel free to do so.
+
+As a lover of small bands and a Toronto concert goer I really appreciate your site. I'm looking to make the change from hobbyist coding  
+
+If you already have an API for JustShowsI'd love access to it.  
+
+If you are thinking of using this one and would like Create, Update and Delete functions just let me know the hooks into your data/database and I'd be happy to write them.
+
+Be forewarned, parsing is far from perfect
+
+venue and band are case insensitive both for gets and responses.
+
+pw, used only for updating and reverting rss files, needs to be way more secure and should be reset.
+
+Wish List:
+consistency with "ands" vs. "&", "with" vs. "w/", etc.
+could you add price, where to get tickets to the rss
+
+Usage examples:
+
+/api/update?pw=secret => gets rss from JS and updates if it's new
