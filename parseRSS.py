@@ -10,13 +10,14 @@ import os
 
 class Show(object):
     """Show object docstring."""
-    def __init__(self, headliner, date, openers, venue, date_listed, summary):
+    def __init__(self, headliner, date, openers, venue, date_listed, summary, url):
         self.headliner = headliner
         self.date = date  # string, for now
         self.openers = openers  # array
         self.venue = venue  # string
         self.date_listed = date_listed  # time.struct_time, could use 'published for string'
         self.summary = summary  # string
+        self.url = url  # string
 
     def __str__(self):
         return str(self.__dict__)
@@ -269,7 +270,8 @@ def load_data(rss="justShowsRss.txt"):
         # openers.append(coheadliner_array[0])
         date_listed = listing.published_parsed
         summary = headliner + " " + listing.summary
-        show = Show(headliner, date, openers, venue, date_listed, summary)
+        url = listing.link
+        show = Show(headliner, date, openers, venue, date_listed, summary, url)
         show_array.append(vars(show))
         band_dict = add_show(show, headliner, band_dict)
         for band in openers:
