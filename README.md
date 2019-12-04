@@ -29,6 +29,9 @@ Currently configured for deployment on Google Cloud Platform's flex environment.
 /api/date/<ddmmyy> => All shows on <ddmmyy>
 
 /api/update?pw=<password> => With valid password will update the RSS feed.
+  
+POST route.  Body with json {"bands": `[band1, band2, band3, ... ]`}
+/api/bands => returns listOfBands`[listOfShows]`
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
