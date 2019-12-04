@@ -211,7 +211,7 @@ def refresh_rss():
     if not response.ok:
         return False
     else:
-        with open("rss_request.txt", 'w') as rr:
+        with open("rss_request.txt", 'w', encoding="utf-8") as rr:
             for line in response.text:
                 rr.write(line)
 
@@ -220,8 +220,16 @@ def refresh_rss():
         new_updated = datetime.strptime(new_updated, "%a, %d %b %Y %X %z")
         # if new_date is != and newer AND entries are within expected range
         if new_updated > last_updated and (0 < len(new_feed.entries) < 800):
-            os.rename('justShowsRss.txt', 'justShowsRss.old')
-            os.rename('rss_request.txt', 'justShowsRss.txt')
+            try:
+                os.rename('justShowsRss.txt', 'justShowsRss.old')
+            except WindowsError:
+                os.remove('justShowsRss.old')
+                os.rename('justShowsRss.txt', 'justShowsRss.old')
+            try:
+                os.rename('rss_request.txt', 'justShowsRss.txt')
+            except WindowsError:
+                os.remove('justShowsRss.txt')
+                os.rename('rss_request.txt', 'justShowsRss.txt')
             return True
         else:
             return False
@@ -232,7 +240,7 @@ def load_data(rss="justShowsRss.txt"):
     # if more cities than TO have function take a feed
     band_dict = {}
     show_array = []
-    coheads = []
+    # coheads = [] # unused for now
     # justShowRss = "http://feeds.justshows.net/rss/toronto/"
     # justShowRss = "rss26102019.txt"  # text file for experimenting.
 
