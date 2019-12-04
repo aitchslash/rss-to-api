@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # memcache_dict = {}  # setup memcache here
 
-password = "secret" # this is obviously unsecure
+password = "secret"  # this is obviously unsecure
 
 # Get Data:
 band_dict, show_array = load_data()
@@ -31,23 +31,36 @@ def get_band_showlistings(bandname):
         return jsonify({bandname: band_dict[bandname.lower()]}), 200
 
 
+@app.route('/api/bands', methods=['POST'])
+def get_shows_from_list():
+    """Return a list of a list of band shows."""
+    """i.e. if a band is playing more than once len(list) > 1"""
+    band_json = request.json
+    band_list = band_json['bands']
+    show_list = [band_dict[x] for x in band_list if x in band_dict.keys()]
+    return jsonify(show_list)
+
+
 @app.route('/api/venue/<venue>', methods=['GET'])
 def get_shows_by_venue(venue):
     # filter show_array by venue
-    shows = list(filter(lambda x: x['venue'].lower() == venue.lower(), show_array))
+    shows = list(
+        filter(lambda x: x['venue'].lower() == venue.lower(), show_array))
     if not shows:
         return jsonify({"error": "Unkown venue: " + venue}), 400
     else:
         return jsonify({venue: shows})
 
 
-@app.route('/api/date/<int:date>', methods=['GET'])  # maybe set default to today?
+# maybe set default to today?
+@app.route('/api/date/<int:date>', methods=['GET'])
 def get_shows_by_date(date):
     if not (0 < date < 311299):
         return jsonify({"error": "Bad date. Try format: ddmmyy"})
     else:
         pydate = datetime.strptime(str(date), "%d%m%y")
-    shows = list(filter(lambda x: datetime.strptime(x['date'], "%B %d, %Y") == pydate, show_array))
+    shows = list(filter(lambda x: datetime.strptime(
+        x['date'], "%B %d, %Y") == pydate, show_array))
     if not shows:
         return jsonify({"error": 'No results or bad date try: ddmmyy'})
     else:
@@ -59,7 +72,8 @@ def get_latest_added():
     limit = int(request.args.get('limit', 10))
     if not (0 < limit < len(show_array)):
         return jsonify({"error": "Bad limit request"})
-    shows_by_added = sorted(show_array, key=lambda sa: sa['date_listed'], reverse=True)
+    shows_by_added = sorted(
+        show_array, key=lambda sa: sa['date_listed'], reverse=True)
     return jsonify({'latest': shows_by_added[:limit]})
 
 
