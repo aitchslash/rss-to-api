@@ -2,19 +2,14 @@ from flask import Flask, jsonify, request
 from datetime import datetime
 from parseRSS import load_data
 import shutil
-# import requests
-# from concurrent.futures import ThreadPoolExecutor, as_completed
-# from operator import itemgetter
 
 app = Flask(__name__)
 
-memcache_dict = {}
+# memcache_dict = {}  # setup memcache here
 
-password = "secret"
+password = "secret" # this is obviously unsecure
 
 # Get Data:
-#   bd =  {bandname.lower(): [list_of_show_objects]}
-#   sa = [{Show_Objects}]  # sorted by date
 band_dict, show_array = load_data()
 
 
@@ -26,12 +21,9 @@ def ping_response():
 
 @app.route('/api/band/<bandname>', methods=['GET'])
 def get_band_showlistings(bandname):
-    # bandname = request.args.get('name')
-    # response_string = "Hello World!! " + bandname + " Rocks!!!"
-    # look up bandname.lower()
-    # if no/bad result bd[name] not in bd.keys()
+    """Get shows for one band."""
     if bandname.lower() not in band_dict.keys():
-        return jsonify({'error': 'Unkown band name'}), 400
+        return jsonify({'error': 'Unknown band name'}), 400
     else:
         # check if request is in memcache
         # check if results are sorted
@@ -43,29 +35,19 @@ def get_band_showlistings(bandname):
 def get_shows_by_venue(venue):
     # filter show_array by venue
     shows = list(filter(lambda x: x['venue'].lower() == venue.lower(), show_array))
-    # shows = filter(lambda x: x.venue == venue, show_array)
     if not shows:
         return jsonify({"error": "Unkown venue: " + venue}), 400
     else:
-        # sort by date
         return jsonify({venue: shows})
 
 
 @app.route('/api/date/<int:date>', methods=['GET'])  # maybe set default to today?
 def get_shows_by_date(date):
-    # may need to convert date
-    # shows = list(filter(lambda x: datetime.strptime(x['date'], "%B %d, %Y") == datetime.today(), show_array))
-    # shows = list(filter(lambda x: x['date'] == datetime.today().strftime("%B %d, %Y"), show_array))
-    # print(date)
-    # check if date falls within rough range, convert to string for datetime stuff.
     if not (0 < date < 311299):
         return jsonify({"error": "Bad date. Try format: ddmmyy"})
     else:
-        # date = str(date)
         pydate = datetime.strptime(str(date), "%d%m%y")
     shows = list(filter(lambda x: datetime.strptime(x['date'], "%B %d, %Y") == pydate, show_array))
-    # lookup shows
-    # sort by bandname?/venue?
     if not shows:
         return jsonify({"error": 'No results or bad date try: ddmmyy'})
     else:
