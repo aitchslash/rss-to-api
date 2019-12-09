@@ -222,14 +222,16 @@ def refresh_rss():
         if new_updated > last_updated and (0 < len(new_feed.entries) < 800):
             try:
                 os.rename('justShowsRss.txt', 'justShowsRss.old')
-            except OSError:
-                os.remove('justShowsRss.old')
-                os.rename('justShowsRss.txt', 'justShowsRss.old')
+            except OSError as e:
+                # os.remove('justShowsRss.old')
+                # os.rename('justShowsRss.txt', 'justShowsRss.old')
+                print("Error1: " + str(e))
             try:
                 os.rename('rss_request.txt', 'justShowsRss.txt')
-            except OSError:
-                os.remove('justShowsRss.txt')
-                os.rename('rss_request.txt', 'justShowsRss.txt')
+            except OSError as e:
+                # os.remove('justShowsRss.txt')
+                # os.rename('rss_request.txt', 'justShowsRss.txt')
+                print("Error2: " + str(e))
             return True
         else:
             return False
