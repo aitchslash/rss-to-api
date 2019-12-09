@@ -6,233 +6,9 @@
 		<link>http://justshows.com/toronto/</link>
 		<description>Live music listings, only better</description>
 		<language>en-us</language>
-		<lastBuildDate>Thu, 05 Dec 2019 11:28:20 -0500</lastBuildDate>
+		<lastBuildDate>Mon, 09 Dec 2019 04:47:15 -0500</lastBuildDate>
 		<webMaster>toronto@justshows.com (Just Shows: Toronto)</webMaster>
 		<atom:link href="http://feeds.justshows.net/rss/toronto/" rel="self" type="application/rss+xml" />
-		<item>
-			<title>December 5, 2019 &#8212; Orville Peck</title>
-			<link>http://justshows.com/toronto/2019/12/05/orville-peck/41572/</link>
-			<guid>http://justsho.ws/w2s</guid>
-			<pubDate>Wed, 10 Jul 2019 14:34:47 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; BREDREN</title>
-			<link>http://justshows.com/toronto/2019/12/05/bredren/43516/</link>
-			<guid>http://justsho.ws/xks</guid>
-			<pubDate>Fri, 29 Nov 2019 16:37:41 -0500</pubDate>
-			<description>at The Painted Lady</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; BANNERS</title>
-			<link>http://justshows.com/toronto/2019/12/05/banners/42126/</link>
-			<guid>http://justsho.ws/wi6</guid>
-			<pubDate>Wed, 21 Aug 2019 14:08:50 -0400</pubDate>
-			<description>at The Opera House</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; Ralph</title>
-			<link>http://justshows.com/toronto/2019/12/05/ralph/42522/</link>
-			<guid>http://justsho.ws/wt6</guid>
-			<pubDate>Wed, 18 Sep 2019 16:45:44 -0400</pubDate>
-			<description>at The Mod Club</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; Tang</title>
-			<link>http://justshows.com/toronto/2019/12/05/tang/43343/</link>
-			<guid>http://justsho.ws/xfz</guid>
-			<pubDate>Fri, 15 Nov 2019 11:43:52 -0500</pubDate>
-			<description>with Steven Lambke and Holiday Pictures at Handlebar</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; 54-40</title>
-			<link>http://justshows.com/toronto/2019/12/05/54-40/41173/</link>
-			<guid>http://justsho.ws/vrp</guid>
-			<pubDate>Mon, 10 Jun 2019 17:36:44 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; GRLwood</title>
-			<link>http://justshows.com/toronto/2019/12/05/grlwood/42992/</link>
-			<guid>http://justsho.ws/x68</guid>
-			<pubDate>Thu, 24 Oct 2019 11:43:25 -0400</pubDate>
-			<description>at The Monarch Tavern</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; Battle Rock</title>
-			<link>http://justshows.com/toronto/2019/12/05/battle-rock/42881/</link>
-			<guid>http://justsho.ws/x35</guid>
-			<pubDate>Tue, 15 Oct 2019 14:41:12 -0400</pubDate>
-			<description>at Hard Luck</description>
-		</item>
-		<item>
-			<title>December 5, 2019 &#8212; Ducks Unlimited</title>
-			<link>http://justshows.com/toronto/2019/12/05/ducks-unlimited/43051/</link>
-			<guid>http://justsho.ws/x7v</guid>
-			<pubDate>Fri, 25 Oct 2019 14:11:15 -0400</pubDate>
-			<description>with Quaker Parents and PAX at The Baby G</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Rheostatics</title>
-			<link>http://justshows.com/toronto/2019/12/06/rheostatics/41422/</link>
-			<guid>http://justsho.ws/vym</guid>
-			<pubDate>Thu, 27 Jun 2019 07:54:16 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Hilltop Hoods</title>
-			<link>http://justshows.com/toronto/2019/12/06/hilltop-hoods/40759/</link>
-			<guid>http://justsho.ws/vg7</guid>
-			<pubDate>Wed, 15 May 2019 12:38:29 -0400</pubDate>
-			<description>at The Opera House</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; H. Shajarian &amp; Pournazeris</title>
-			<link>http://justshows.com/toronto/2019/12/06/h-shajarian-and-pournazeris/42173/</link>
-			<guid>http://justsho.ws/wjh</guid>
-			<pubDate>Mon, 26 Aug 2019 11:39:30 -0400</pubDate>
-			<description>at Sony Centre</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Garage Baby, Giraffe</title>
-			<link>http://justshows.com/toronto/2019/12/06/garage-baby-giraffe/43517/</link>
-			<guid>http://justsho.ws/xkt</guid>
-			<pubDate>Fri, 29 Nov 2019 16:37:52 -0500</pubDate>
-			<description>at The Painted Lady</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; 54-40</title>
-			<link>http://justshows.com/toronto/2019/12/06/54-40/41174/</link>
-			<guid>http://justsho.ws/vrq</guid>
-			<pubDate>Mon, 10 Jun 2019 17:37:27 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Lindsay Schoolcraf</title>
-			<link>http://justshows.com/toronto/2019/12/06/lindsay-schoolcraf/43230/</link>
-			<guid>http://justsho.ws/xcu</guid>
-			<pubDate>Fri, 08 Nov 2019 13:58:13 -0500</pubDate>
-			<description>with Astaroth Incarnate and Darkstone Crows at The Garrison</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Figure</title>
-			<link>http://justshows.com/toronto/2019/12/06/figure/43476/</link>
-			<guid>http://justsho.ws/xjo</guid>
-			<pubDate>Tue, 26 Nov 2019 18:49:42 -0500</pubDate>
-			<description>at One Loft</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Lungbutter</title>
-			<link>http://justshows.com/toronto/2019/12/06/lungbutter/43052/</link>
-			<guid>http://justsho.ws/x7w</guid>
-			<pubDate>Fri, 25 Oct 2019 14:12:19 -0400</pubDate>
-			<description>with Dorothea Paas at The Baby G</description>
-		</item>
-		<item>
-			<title>December 6, 2019 &#8212; Danko Jones</title>
-			<link>http://justshows.com/toronto/2019/12/06/danko-jones/42402/</link>
-			<guid>http://justsho.ws/wpu</guid>
-			<pubDate>Wed, 11 Sep 2019 17:24:58 -0400</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Omar Apollo</title>
-			<link>http://justshows.com/toronto/2019/12/07/omar-apollo/41664/</link>
-			<guid>http://justsho.ws/w5c</guid>
-			<pubDate>Wed, 17 Jul 2019 16:53:33 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Kolette Easy</title>
-			<link>http://justshows.com/toronto/2019/12/07/kolette-easy/43518/</link>
-			<guid>http://justsho.ws/xku</guid>
-			<pubDate>Fri, 29 Nov 2019 16:38:08 -0500</pubDate>
-			<description>at The Painted Lady</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Battles</title>
-			<link>http://justshows.com/toronto/2019/12/07/battles/41968/</link>
-			<guid>http://justsho.ws/wds</guid>
-			<pubDate>Fri, 09 Aug 2019 16:40:06 -0400</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Alexander Stewart</title>
-			<link>http://justshows.com/toronto/2019/12/07/alexander-stewart/42617/</link>
-			<guid>http://justsho.ws/wvt</guid>
-			<pubDate>Tue, 24 Sep 2019 07:42:52 -0400</pubDate>
-			<description>at The Velvet Underground</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Donovan Woods</title>
-			<link>http://justshows.com/toronto/2019/12/07/donovan-woods/42089/</link>
-			<guid>http://justsho.ws/wh5</guid>
-			<pubDate>Mon, 19 Aug 2019 15:10:02 -0400</pubDate>
-			<description>at Koerner Hall</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Cakes Da Killa</title>
-			<link>http://justshows.com/toronto/2019/12/07/cakes-da-killa/43523/</link>
-			<guid>http://justsho.ws/xkz</guid>
-			<pubDate>Fri, 29 Nov 2019 16:47:22 -0500</pubDate>
-			<description>with DJs Myst Milano + Blackcat and Charmed Monroe + Tam Ika at The Garrison</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; 54-40</title>
-			<link>http://justshows.com/toronto/2019/12/07/54-40/41175/</link>
-			<guid>http://justsho.ws/vrr</guid>
-			<pubDate>Mon, 10 Jun 2019 17:38:24 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; Tony Quarrington's For King and Country</title>
-			<link>http://justshows.com/toronto/2019/12/07/tony-quarringtons-for-king-and-country/43477/</link>
-			<guid>http://justsho.ws/xjp</guid>
-			<pubDate>Tue, 26 Nov 2019 18:49:53 -0500</pubDate>
-			<description>at St Paul's United Church</description>
-		</item>
-		<item>
-			<title>December 7, 2019 &#8212; ONES</title>
-			<link>http://justshows.com/toronto/2019/12/07/ones/40013/</link>
-			<guid>http://justsho.ws/uvh</guid>
-			<pubDate>Wed, 03 Apr 2019 23:03:20 -0400</pubDate>
-			<description>at Sony Centre</description>
-		</item>
-		<item>
-			<title>December 8, 2019 &#8212; Riverdale Share Concert</title>
-			<link>http://justshows.com/toronto/2019/12/08/riverdale-share-concert/42948/</link>
-			<guid>http://justsho.ws/x50</guid>
-			<pubDate>Mon, 21 Oct 2019 17:03:20 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
-			<title>December 8, 2019 &#8212; Cautious Clay</title>
-			<link>http://justshows.com/toronto/2019/12/08/cautious-clay/41292/</link>
-			<guid>http://justsho.ws/vv0</guid>
-			<pubDate>Wed, 19 Jun 2019 16:08:46 -0400</pubDate>
-			<description>at The Phoenix Concert Theatre</description>
-		</item>
-		<item>
-			<title>December 8, 2019 &#8212; Tyler Childers</title>
-			<link>http://justshows.com/toronto/2019/12/08/tyler-childers/40827/</link>
-			<guid>http://justsho.ws/vi3</guid>
-			<pubDate>Fri, 17 May 2019 16:33:26 -0400</pubDate>
-			<description>with Liz Cooper &amp; The Stampede at Rebel</description>
-		</item>
-		<item>
-			<title>December 8, 2019 &#8212; 13GO</title>
-			<link>http://justshows.com/toronto/2019/12/08/13go/43519/</link>
-			<guid>http://justsho.ws/xkv</guid>
-			<pubDate>Fri, 29 Nov 2019 16:38:16 -0500</pubDate>
-			<description>at The Painted Lady</description>
-		</item>
-		<item>
-			<title>December 8, 2019 &#8212; Alan Menken</title>
-			<link>http://justshows.com/toronto/2019/12/08/alan-menken/41600/</link>
-			<guid>http://justsho.ws/w3k</guid>
-			<pubDate>Fri, 12 Jul 2019 17:14:49 -0400</pubDate>
-			<description>at St. Lawrence Centre for the Arts, Jane Mallett Theatre</description>
-		</item>
 		<item>
 			<title>December 9, 2019 &#8212; Ezra Collective</title>
 			<link>http://justshows.com/toronto/2019/12/09/ezra-collective/41661/</link>
@@ -245,20 +21,6 @@
 			<link>http://justshows.com/toronto/2019/12/09/celine-dion/40077/</link>
 			<guid>http://justsho.ws/ux9</guid>
 			<pubDate>Fri, 05 Apr 2019 11:08:42 -0400</pubDate>
-			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
-		</item>
-		<item>
-			<title>December 10, 2019 &#8212; Möngöl Hörde</title>
-			<link>http://justshows.com/toronto/2019/12/10/mongol-horde/41489/</link>
-			<guid>http://justsho.ws/w0h</guid>
-			<pubDate>Tue, 02 Jul 2019 07:43:28 -0400</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
-			<title>December 10, 2019 &#8212; Celine Dion</title>
-			<link>http://justshows.com/toronto/2019/12/10/celine-dion/40153/</link>
-			<guid>http://justsho.ws/uzd</guid>
-			<pubDate>Wed, 10 Apr 2019 15:30:58 -0400</pubDate>
 			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
 		</item>
 		<item>
@@ -290,18 +52,18 @@
 			<description>at Rebel</description>
 		</item>
 		<item>
-			<title>December 11, 2019 &#8212; Hollerado</title>
-			<link>http://justshows.com/toronto/2019/12/11/hollerado/40972/</link>
-			<guid>http://justsho.ws/vm4</guid>
-			<pubDate>Wed, 29 May 2019 11:07:28 -0400</pubDate>
-			<description>with Tokyo Police Club at The Danforth Music Hall</description>
+			<title>December 10, 2019 &#8212; Möngöl Hörde</title>
+			<link>http://justshows.com/toronto/2019/12/10/mongol-horde/41489/</link>
+			<guid>http://justsho.ws/w0h</guid>
+			<pubDate>Tue, 02 Jul 2019 07:43:28 -0400</pubDate>
+			<description>at Lee’s Palace</description>
 		</item>
 		<item>
-			<title>December 11, 2019 &#8212; Mount Eerie and Julie Doiron</title>
-			<link>http://justshows.com/toronto/2019/12/11/mount-eerie-and-julie-doiron/42642/</link>
-			<guid>http://justsho.ws/wwi</guid>
-			<pubDate>Wed, 25 Sep 2019 14:07:57 -0400</pubDate>
-			<description>at The Great Hall</description>
+			<title>December 10, 2019 &#8212; Celine Dion</title>
+			<link>http://justshows.com/toronto/2019/12/10/celine-dion/40153/</link>
+			<guid>http://justsho.ws/uzd</guid>
+			<pubDate>Wed, 10 Apr 2019 15:30:58 -0400</pubDate>
+			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
 		</item>
 		<item>
 			<title>December 11, 2019 &#8212; KILLY</title>
@@ -311,6 +73,13 @@
 			<description>at Rebel</description>
 		</item>
 		<item>
+			<title>December 11, 2019 &#8212; Hollerado</title>
+			<link>http://justshows.com/toronto/2019/12/11/hollerado/40972/</link>
+			<guid>http://justsho.ws/vm4</guid>
+			<pubDate>Wed, 29 May 2019 11:07:28 -0400</pubDate>
+			<description>with Tokyo Police Club at The Danforth Music Hall</description>
+		</item>
+		<item>
 			<title>December 11, 2019 &#8212; Mulatu Astatke</title>
 			<link>http://justshows.com/toronto/2019/12/11/mulatu-astatke/42047/</link>
 			<guid>http://justsho.ws/wfz</guid>
@@ -318,11 +87,25 @@
 			<description>at The Mod Club</description>
 		</item>
 		<item>
-			<title>December 12, 2019 &#8212; Hollerado</title>
-			<link>http://justshows.com/toronto/2019/12/12/hollerado/39563/</link>
-			<guid>http://justsho.ws/uiz</guid>
-			<pubDate>Mon, 11 Mar 2019 17:05:13 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>December 11, 2019 &#8212; Mount Eerie and Julie Doiron</title>
+			<link>http://justshows.com/toronto/2019/12/11/mount-eerie-and-julie-doiron/42642/</link>
+			<guid>http://justsho.ws/wwi</guid>
+			<pubDate>Wed, 25 Sep 2019 14:07:57 -0400</pubDate>
+			<description>at The Great Hall</description>
+		</item>
+		<item>
+			<title>December 12, 2019 &#8212; Blythwood Winds</title>
+			<link>http://justshows.com/toronto/2019/12/12/blythwood-winds/43342/</link>
+			<guid>http://justsho.ws/xfy</guid>
+			<pubDate>Fri, 15 Nov 2019 11:43:43 -0500</pubDate>
+			<description>at Burdock Music Hall</description>
+		</item>
+		<item>
+			<title>December 12, 2019 &#8212; Xavier Omar</title>
+			<link>http://justshows.com/toronto/2019/12/12/xavier-omar/42724/</link>
+			<guid>http://justsho.ws/wys</guid>
+			<pubDate>Wed, 02 Oct 2019 18:13:13 -0400</pubDate>
+			<description>with Elhae at The Mod Club</description>
 		</item>
 		<item>
 			<title>December 12, 2019 &#8212; Blue Mantra</title>
@@ -330,13 +113,6 @@
 			<guid>http://justsho.ws/xcv</guid>
 			<pubDate>Fri, 08 Nov 2019 14:01:00 -0500</pubDate>
 			<description>with ART the Band and John’s Cottage at The Garrison</description>
-		</item>
-		<item>
-			<title>December 12, 2019 &#8212; Pixies</title>
-			<link>http://justshows.com/toronto/2019/12/12/pixies/42673/</link>
-			<guid>http://justsho.ws/wxd</guid>
-			<pubDate>Fri, 27 Sep 2019 16:57:01 -0400</pubDate>
-			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
 			<title>December 12, 2019 &#8212; The Ward Cabaret</title>
@@ -353,11 +129,32 @@
 			<description>at The Canadian Music Centre</description>
 		</item>
 		<item>
-			<title>December 12, 2019 &#8212; Blythwood Winds</title>
-			<link>http://justshows.com/toronto/2019/12/12/blythwood-winds/43342/</link>
-			<guid>http://justsho.ws/xfy</guid>
-			<pubDate>Fri, 15 Nov 2019 11:43:43 -0500</pubDate>
-			<description>at Burdock Music Hall</description>
+			<title>December 12, 2019 &#8212; Hollerado</title>
+			<link>http://justshows.com/toronto/2019/12/12/hollerado/39563/</link>
+			<guid>http://justsho.ws/uiz</guid>
+			<pubDate>Mon, 11 Mar 2019 17:05:13 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>December 12, 2019 &#8212; Moonlight Travel</title>
+			<link>http://justshows.com/toronto/2019/12/12/moonlight-travel/43604/</link>
+			<guid>http://justsho.ws/xn8</guid>
+			<pubDate>Fri, 06 Dec 2019 18:47:38 -0500</pubDate>
+			<description>with The Noise Witch and Cyn Fay at Handlebar</description>
+		</item>
+		<item>
+			<title>December 12, 2019 &#8212; Our Bodies Our Work IV</title>
+			<link>http://justshows.com/toronto/2019/12/12/our-bodies-our-work-iv/43602/</link>
+			<guid>http://justsho.ws/xn6</guid>
+			<pubDate>Fri, 06 Dec 2019 18:47:21 -0500</pubDate>
+			<description>at The Painted Lady</description>
+		</item>
+		<item>
+			<title>December 12, 2019 &#8212; Pixies</title>
+			<link>http://justshows.com/toronto/2019/12/12/pixies/42673/</link>
+			<guid>http://justsho.ws/wxd</guid>
+			<pubDate>Fri, 27 Sep 2019 16:57:01 -0400</pubDate>
+			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
 			<title>December 12, 2019 &#8212; Johnny Pandora</title>
@@ -367,18 +164,32 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>December 12, 2019 &#8212; Xavier Omar</title>
-			<link>http://justshows.com/toronto/2019/12/12/xavier-omar/42724/</link>
-			<guid>http://justsho.ws/wys</guid>
-			<pubDate>Wed, 02 Oct 2019 18:13:13 -0400</pubDate>
-			<description>with Elhae at The Mod Club</description>
-		</item>
-		<item>
 			<title>December 12, 2019 &#8212; Tush</title>
 			<link>http://justshows.com/toronto/2019/12/12/tush/43526/</link>
 			<guid>http://justsho.ws/xl2</guid>
 			<pubDate>Fri, 29 Nov 2019 16:52:11 -0500</pubDate>
 			<description>with Garth at The Baby G</description>
+		</item>
+		<item>
+			<title>December 13, 2019 &#8212; Hervana Farewell Show</title>
+			<link>http://justshows.com/toronto/2019/12/13/hervana-farewell-show/42835/</link>
+			<guid>http://justsho.ws/x1v</guid>
+			<pubDate>Fri, 11 Oct 2019 13:14:49 -0400</pubDate>
+			<description>with Green Girl and Weak Hands at The Garrison</description>
+		</item>
+		<item>
+			<title>December 13, 2019 &#8212; The Ward Cabaret</title>
+			<link>http://justshows.com/toronto/2019/12/13/the-ward-cabaret/42799/</link>
+			<guid>http://justsho.ws/x0v</guid>
+			<pubDate>Wed, 09 Oct 2019 13:44:45 -0400</pubDate>
+			<description>at Harbourfont Centre Theatre</description>
+		</item>
+		<item>
+			<title>December 13, 2019 &#8212; White Cowbell Oklahoma</title>
+			<link>http://justshows.com/toronto/2019/12/13/white-cowbell-oklahoma/43406/</link>
+			<guid>http://justsho.ws/xhq</guid>
+			<pubDate>Wed, 20 Nov 2019 15:24:00 -0500</pubDate>
+			<description>at Lee’s Palace</description>
 		</item>
 		<item>
 			<title>December 13, 2019 &#8212; Lowest of the Low</title>
@@ -395,20 +206,6 @@
 			<description>at Small World Music Centre</description>
 		</item>
 		<item>
-			<title>December 13, 2019 &#8212; The Ward Cabaret</title>
-			<link>http://justshows.com/toronto/2019/12/13/the-ward-cabaret/42799/</link>
-			<guid>http://justsho.ws/x0v</guid>
-			<pubDate>Wed, 09 Oct 2019 13:44:45 -0400</pubDate>
-			<description>at Harbourfont Centre Theatre</description>
-		</item>
-		<item>
-			<title>December 13, 2019 &#8212; Hervana Farewell Show</title>
-			<link>http://justshows.com/toronto/2019/12/13/hervana-farewell-show/42835/</link>
-			<guid>http://justsho.ws/x1v</guid>
-			<pubDate>Fri, 11 Oct 2019 13:14:49 -0400</pubDate>
-			<description>with Green Girl and Weak Hands at The Garrison</description>
-		</item>
-		<item>
 			<title>December 13, 2019 &#8212; Hollerado</title>
 			<link>http://justshows.com/toronto/2019/12/13/hollerado/39274/</link>
 			<guid>http://justsho.ws/uay</guid>
@@ -423,25 +220,11 @@
 			<description>at Rivoli</description>
 		</item>
 		<item>
-			<title>December 13, 2019 &#8212; White Cowbell Oklahoma</title>
-			<link>http://justshows.com/toronto/2019/12/13/white-cowbell-oklahoma/43406/</link>
-			<guid>http://justsho.ws/xhq</guid>
-			<pubDate>Wed, 20 Nov 2019 15:24:00 -0500</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
-			<title>December 14, 2019 &#8212; Dinosaur Island</title>
-			<link>http://justshows.com/toronto/2019/12/14/dinosaur-island/43218/</link>
-			<guid>http://justsho.ws/xci</guid>
-			<pubDate>Fri, 08 Nov 2019 13:29:13 -0500</pubDate>
-			<description>with Sleepless Nights at Handlebar</description>
-		</item>
-		<item>
-			<title>December 14, 2019 &#8212; Mars Hotel</title>
-			<link>http://justshows.com/toronto/2019/12/14/mars-hotel/43190/</link>
-			<guid>http://justsho.ws/xbq</guid>
-			<pubDate>Wed, 06 Nov 2019 12:18:50 -0500</pubDate>
-			<description>at The Mod Club</description>
+			<title>December 13, 2019 &#8212; Rob Fitzgerald, Spitfire Rabbit</title>
+			<link>http://justshows.com/toronto/2019/12/13/rob-fitzgerald-spitfire-rabbit/43603/</link>
+			<guid>http://justsho.ws/xn7</guid>
+			<pubDate>Fri, 06 Dec 2019 18:47:28 -0500</pubDate>
+			<description>at The Painted Lady</description>
 		</item>
 		<item>
 			<title>December 14, 2019 &#8212; Lowest of the Low</title>
@@ -465,18 +248,25 @@
 			<description>with Pleasure Craft, Emily Rose, Rachel Bobbit and Justice Der at The Garrison</description>
 		</item>
 		<item>
-			<title>December 14, 2019 &#8212; Organ Mood</title>
-			<link>http://justshows.com/toronto/2019/12/14/organ-mood/42844/</link>
-			<guid>http://justsho.ws/x24</guid>
-			<pubDate>Fri, 11 Oct 2019 13:28:53 -0400</pubDate>
-			<description>with Syzygy at The Baby G</description>
-		</item>
-		<item>
 			<title>December 14, 2019 &#8212; Hollerado and Friends: Open Mic Night</title>
 			<link>http://justshows.com/toronto/2019/12/14/hollerado-and-friends-open-mic-night/43521/</link>
 			<guid>http://justsho.ws/xkx</guid>
 			<pubDate>Fri, 29 Nov 2019 16:40:32 -0500</pubDate>
 			<description>at The Horseshoe Tavern</description>
+		</item>
+		<item>
+			<title>December 14, 2019 &#8212; Mars Hotel</title>
+			<link>http://justshows.com/toronto/2019/12/14/mars-hotel/43190/</link>
+			<guid>http://justsho.ws/xbq</guid>
+			<pubDate>Wed, 06 Nov 2019 12:18:50 -0500</pubDate>
+			<description>at The Mod Club</description>
+		</item>
+		<item>
+			<title>December 14, 2019 &#8212; Organ Mood</title>
+			<link>http://justshows.com/toronto/2019/12/14/organ-mood/42844/</link>
+			<guid>http://justsho.ws/x24</guid>
+			<pubDate>Fri, 11 Oct 2019 13:28:53 -0400</pubDate>
+			<description>with Syzygy at The Baby G</description>
 		</item>
 		<item>
 			<title>December 14, 2019 &#8212; Born Ruffians</title>
@@ -486,11 +276,32 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
+			<title>December 14, 2019 &#8212; Andrea, Naseha, Unknxn Artist</title>
+			<link>http://justshows.com/toronto/2019/12/14/andrea-naseha-unknxn-artist/43596/</link>
+			<guid>http://justsho.ws/xn0</guid>
+			<pubDate>Fri, 06 Dec 2019 18:40:31 -0500</pubDate>
+			<description>at The Painted Lady</description>
+		</item>
+		<item>
+			<title>December 14, 2019 &#8212; Dinosaur Island</title>
+			<link>http://justshows.com/toronto/2019/12/14/dinosaur-island/43218/</link>
+			<guid>http://justsho.ws/xci</guid>
+			<pubDate>Fri, 08 Nov 2019 13:29:13 -0500</pubDate>
+			<description>with Sleepless Nights at Handlebar</description>
+		</item>
+		<item>
 			<title>December 15, 2019 &#8212; Underorder</title>
 			<link>http://justshows.com/toronto/2019/12/15/underorder/43496/</link>
 			<guid>http://justsho.ws/xk8</guid>
 			<pubDate>Wed, 27 Nov 2019 13:14:28 -0500</pubDate>
 			<description>with Lake Versions and Cetacea at Handlebar</description>
+		</item>
+		<item>
+			<title>December 15, 2019 &#8212; Girl Gang Cabarets</title>
+			<link>http://justshows.com/toronto/2019/12/15/girl-gang-cabarets/43597/</link>
+			<guid>http://justsho.ws/xn1</guid>
+			<pubDate>Fri, 06 Dec 2019 18:46:32 -0500</pubDate>
+			<description>at The Painted Lady</description>
 		</item>
 		<item>
 			<title>December 15, 2019 &#8212; Madison McFerrin</title>
@@ -500,11 +311,11 @@
 			<description>at The Drake Hotel</description>
 		</item>
 		<item>
-			<title>December 17, 2019 &#8212; Home for the Holidays with Magic!</title>
-			<link>http://justshows.com/toronto/2019/12/17/home-for-the-holidays-with-magic/42993/</link>
-			<guid>http://justsho.ws/x69</guid>
-			<pubDate>Thu, 24 Oct 2019 11:44:25 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
+			<title>December 15, 2019 &#8212; Covers Club</title>
+			<link>http://justshows.com/toronto/2019/12/15/covers-club/43598/</link>
+			<guid>http://justsho.ws/xn2</guid>
+			<pubDate>Fri, 06 Dec 2019 18:46:38 -0500</pubDate>
+			<description>at The Painted Lady</description>
 		</item>
 		<item>
 			<title>December 17, 2019 &#8212; A$AP Ferg</title>
@@ -514,11 +325,11 @@
 			<description>with Murda Beatz and Madeintyo at Rebel</description>
 		</item>
 		<item>
-			<title>December 17, 2019 &#8212; Kadavar</title>
-			<link>http://justshows.com/toronto/2019/12/17/kadavar/42529/</link>
-			<guid>http://justsho.ws/wtd</guid>
-			<pubDate>Wed, 18 Sep 2019 16:49:08 -0400</pubDate>
-			<description>with Ruby the Hatchet at Lee’s Palace</description>
+			<title>December 17, 2019 &#8212; Home for the Holidays with Magic!</title>
+			<link>http://justshows.com/toronto/2019/12/17/home-for-the-holidays-with-magic/42993/</link>
+			<guid>http://justsho.ws/x69</guid>
+			<pubDate>Thu, 24 Oct 2019 11:44:25 -0400</pubDate>
+			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
 			<title>December 17, 2019 &#8212; Life Of Agony</title>
@@ -535,25 +346,11 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>December 18, 2019 &#8212; Hockey Dad and DZ Deathrays</title>
-			<link>http://justshows.com/toronto/2019/12/18/hockey-dad-and-dz-deathrays/42301/</link>
-			<guid>http://justsho.ws/wn1</guid>
-			<pubDate>Wed, 04 Sep 2019 15:52:17 -0400</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
-			<title>December 18, 2019 &#8212; Serena Ryder</title>
-			<link>http://justshows.com/toronto/2019/12/18/serena-ryder/42504/</link>
-			<guid>http://justsho.ws/wso</guid>
-			<pubDate>Wed, 18 Sep 2019 16:42:38 -0400</pubDate>
-			<description>at Queen Elizabeth Theatre</description>
-		</item>
-		<item>
-			<title>December 18, 2019 &#8212; Delaney Jane</title>
-			<link>http://justshows.com/toronto/2019/12/18/delaney-jane/42787/</link>
-			<guid>http://justsho.ws/x0j</guid>
-			<pubDate>Wed, 09 Oct 2019 13:43:11 -0400</pubDate>
-			<description>at The Mod Club</description>
+			<title>December 17, 2019 &#8212; Kadavar</title>
+			<link>http://justshows.com/toronto/2019/12/17/kadavar/42529/</link>
+			<guid>http://justsho.ws/wtd</guid>
+			<pubDate>Wed, 18 Sep 2019 16:49:08 -0400</pubDate>
+			<description>with Ruby the Hatchet at Lee’s Palace</description>
 		</item>
 		<item>
 			<title>December 18, 2019 &#8212; Kasador</title>
@@ -563,13 +360,6 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>December 18, 2019 &#8212; Ian Blurton's Future Now</title>
-			<link>http://justshows.com/toronto/2019/12/18/ian-blurtons-future-now/43191/</link>
-			<guid>http://justsho.ws/xbr</guid>
-			<pubDate>Wed, 06 Nov 2019 12:20:05 -0500</pubDate>
-			<description>at The Dakota Tavern</description>
-		</item>
-		<item>
 			<title>December 18, 2019 &#8212; The Marcus King Band</title>
 			<link>http://justshows.com/toronto/2019/12/18/the-marcus-king-band/42403/</link>
 			<guid>http://justsho.ws/wpv</guid>
@@ -577,18 +367,32 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>December 19, 2019 &#8212; Boston Manor</title>
-			<link>http://justshows.com/toronto/2019/12/19/boston-manor/42106/</link>
-			<guid>http://justsho.ws/whm</guid>
-			<pubDate>Mon, 19 Aug 2019 15:18:33 -0400</pubDate>
-			<description>with Microwave, Heart Attack Man and Selfish Things at The Velvet Underground</description>
+			<title>December 18, 2019 &#8212; Ian Blurton's Future Now</title>
+			<link>http://justshows.com/toronto/2019/12/18/ian-blurtons-future-now/43191/</link>
+			<guid>http://justsho.ws/xbr</guid>
+			<pubDate>Wed, 06 Nov 2019 12:20:05 -0500</pubDate>
+			<description>at The Dakota Tavern</description>
 		</item>
 		<item>
-			<title>December 19, 2019 &#8212; The Last Show of the Decade for Toronto’s Indie Rock Future:</title>
-			<link>http://justshows.com/toronto/2019/12/19/the-last-show-of-the-decade-for-torontos-indie-rock-future/43551/</link>
-			<guid>http://justsho.ws/xlr</guid>
-			<pubDate>Tue, 03 Dec 2019 12:44:56 -0500</pubDate>
-			<description>with .carbonated., Mango Reinhardt, Neon Bloom and We Wander at Lee’s Palace</description>
+			<title>December 18, 2019 &#8212; Serena Ryder</title>
+			<link>http://justshows.com/toronto/2019/12/18/serena-ryder/42504/</link>
+			<guid>http://justsho.ws/wso</guid>
+			<pubDate>Wed, 18 Sep 2019 16:42:38 -0400</pubDate>
+			<description>at Queen Elizabeth Theatre</description>
+		</item>
+		<item>
+			<title>December 18, 2019 &#8212; Hockey Dad and DZ Deathrays</title>
+			<link>http://justshows.com/toronto/2019/12/18/hockey-dad-and-dz-deathrays/42301/</link>
+			<guid>http://justsho.ws/wn1</guid>
+			<pubDate>Wed, 04 Sep 2019 15:52:17 -0400</pubDate>
+			<description>at Lee’s Palace</description>
+		</item>
+		<item>
+			<title>December 18, 2019 &#8212; Delaney Jane</title>
+			<link>http://justshows.com/toronto/2019/12/18/delaney-jane/42787/</link>
+			<guid>http://justsho.ws/x0j</guid>
+			<pubDate>Wed, 09 Oct 2019 13:43:11 -0400</pubDate>
+			<description>at The Mod Club</description>
 		</item>
 		<item>
 			<title>December 19, 2019 &#8212; Big Wreck</title>
@@ -605,11 +409,18 @@
 			<description>with Tanika Charles at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>December 20, 2019 &#8212; Girlfriend Material Christmas Special</title>
-			<link>http://justshows.com/toronto/2019/12/20/girlfriend-material-christmas-special/43524/</link>
-			<guid>http://justsho.ws/xl0</guid>
-			<pubDate>Fri, 29 Nov 2019 16:48:24 -0500</pubDate>
-			<description>with PONY and DJwomenandsongs666 at The Garrison</description>
+			<title>December 19, 2019 &#8212; Boston Manor</title>
+			<link>http://justshows.com/toronto/2019/12/19/boston-manor/42106/</link>
+			<guid>http://justsho.ws/whm</guid>
+			<pubDate>Mon, 19 Aug 2019 15:18:33 -0400</pubDate>
+			<description>with Microwave, Heart Attack Man and Selfish Things at The Velvet Underground</description>
+		</item>
+		<item>
+			<title>December 19, 2019 &#8212; The Last Show of the Decade for Toronto’s Indie Rock Future:</title>
+			<link>http://justshows.com/toronto/2019/12/19/the-last-show-of-the-decade-for-torontos-indie-rock-future/43551/</link>
+			<guid>http://justsho.ws/xlr</guid>
+			<pubDate>Tue, 03 Dec 2019 12:44:56 -0500</pubDate>
+			<description>with .carbonated., Mango Reinhardt, Neon Bloom and We Wander at Lee’s Palace</description>
 		</item>
 		<item>
 			<title>December 20, 2019 &#8212; Big Wreck</title>
@@ -619,18 +430,25 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
+			<title>December 20, 2019 &#8212; Girlfriend Material Christmas Special</title>
+			<link>http://justshows.com/toronto/2019/12/20/girlfriend-material-christmas-special/43524/</link>
+			<guid>http://justsho.ws/xl0</guid>
+			<pubDate>Fri, 29 Nov 2019 16:48:24 -0500</pubDate>
+			<description>with PONY and DJwomenandsongs666 at The Garrison</description>
+		</item>
+		<item>
+			<title>December 21, 2019 &#8212; Jennifer Castle</title>
+			<link>http://justshows.com/toronto/2019/12/21/jennifer-castle/42714/</link>
+			<guid>http://justsho.ws/wyi</guid>
+			<pubDate>Tue, 01 Oct 2019 17:50:19 -0400</pubDate>
+			<description>at Longboat Hall</description>
+		</item>
+		<item>
 			<title>December 21, 2019 &#8212; A Fellow Ship</title>
 			<link>http://justshows.com/toronto/2019/12/21/a-fellow-ship/42951/</link>
 			<guid>http://justsho.ws/x53</guid>
 			<pubDate>Mon, 21 Oct 2019 17:06:40 -0400</pubDate>
 			<description>at The Horseshoe Tavern</description>
-		</item>
-		<item>
-			<title>December 21, 2019 &#8212; The Skydiggers</title>
-			<link>http://justshows.com/toronto/2019/12/21/the-skydiggers/42404/</link>
-			<guid>http://justsho.ws/wpw</guid>
-			<pubDate>Wed, 11 Sep 2019 17:25:22 -0400</pubDate>
-			<description>with Communism at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>December 21, 2019 &#8212; Madame Psychosis</title>
@@ -647,11 +465,11 @@
 			<description>at Harbourfont Centre Theatre</description>
 		</item>
 		<item>
-			<title>December 21, 2019 &#8212; Jennifer Castle</title>
-			<link>http://justshows.com/toronto/2019/12/21/jennifer-castle/42714/</link>
-			<guid>http://justsho.ws/wyi</guid>
-			<pubDate>Tue, 01 Oct 2019 17:50:19 -0400</pubDate>
-			<description>at Longboat Hall</description>
+			<title>December 21, 2019 &#8212; The Skydiggers</title>
+			<link>http://justshows.com/toronto/2019/12/21/the-skydiggers/42404/</link>
+			<guid>http://justsho.ws/wpw</guid>
+			<pubDate>Wed, 11 Sep 2019 17:25:22 -0400</pubDate>
+			<description>with Communism at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>December 22, 2019 &#8212; Seaway</title>
@@ -689,6 +507,13 @@
 			<description>with NLP and Astral WItch at Bovine Sex Club</description>
 		</item>
 		<item>
+			<title>December 28, 2019 &#8212; Monster Truck</title>
+			<link>http://justshows.com/toronto/2019/12/28/monster-truck/43192/</link>
+			<guid>http://justsho.ws/xbs</guid>
+			<pubDate>Wed, 06 Nov 2019 12:21:19 -0500</pubDate>
+			<description>at Lee’s Palace</description>
+		</item>
+		<item>
 			<title>December 28, 2019 &#8212; Vesperia</title>
 			<link>http://justshows.com/toronto/2019/12/28/vesperia/43520/</link>
 			<guid>http://justsho.ws/xkw</guid>
@@ -701,13 +526,6 @@
 			<guid>http://justsho.ws/xlo</guid>
 			<pubDate>Tue, 03 Dec 2019 12:44:23 -0500</pubDate>
 			<description>at Array Space</description>
-		</item>
-		<item>
-			<title>December 28, 2019 &#8212; Monster Truck</title>
-			<link>http://justshows.com/toronto/2019/12/28/monster-truck/43192/</link>
-			<guid>http://justsho.ws/xbs</guid>
-			<pubDate>Wed, 06 Nov 2019 12:21:19 -0500</pubDate>
-			<description>at Lee’s Palace</description>
 		</item>
 		<item>
 			<title>December 30, 2019 &#8212; Trans-Siberian Orchestra</title>
@@ -724,6 +542,13 @@
 			<description>at Lee’s Palace</description>
 		</item>
 		<item>
+			<title>December 31, 2019 &#8212; Dwayne Gretzky</title>
+			<link>http://justshows.com/toronto/2019/12/31/dwayne-gretzky/43188/</link>
+			<guid>http://justsho.ws/xbo</guid>
+			<pubDate>Wed, 06 Nov 2019 12:18:38 -0500</pubDate>
+			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
 			<title>December 31, 2019 &#8212; The Sadies</title>
 			<link>http://justshows.com/toronto/2019/12/31/the-sadies/43134/</link>
 			<guid>http://justsho.ws/xa6</guid>
@@ -736,13 +561,6 @@
 			<guid>http://justsho.ws/xhv</guid>
 			<pubDate>Wed, 20 Nov 2019 15:24:55 -0500</pubDate>
 			<description>at Hard Luck</description>
-		</item>
-		<item>
-			<title>December 31, 2019 &#8212; Dwayne Gretzky</title>
-			<link>http://justshows.com/toronto/2019/12/31/dwayne-gretzky/43188/</link>
-			<guid>http://justsho.ws/xbo</guid>
-			<pubDate>Wed, 06 Nov 2019 12:18:38 -0500</pubDate>
-			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>January 4, 2020 &#8212; Bearings</title>
@@ -787,18 +605,18 @@
 			<description>at Rivoli</description>
 		</item>
 		<item>
-			<title>January 12, 2020 &#8212; Yola</title>
-			<link>http://justshows.com/toronto/2020/01/12/yola/42515/</link>
-			<guid>http://justsho.ws/wsz</guid>
-			<pubDate>Wed, 18 Sep 2019 16:44:48 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
-		</item>
-		<item>
 			<title>January 12, 2020 &#8212; The Levin Brothers</title>
 			<link>http://justshows.com/toronto/2020/01/12/the-levin-brothers/42845/</link>
 			<guid>http://justsho.ws/x25</guid>
 			<pubDate>Fri, 11 Oct 2019 13:29:58 -0400</pubDate>
 			<description>at The Baby G</description>
+		</item>
+		<item>
+			<title>January 12, 2020 &#8212; Yola</title>
+			<link>http://justshows.com/toronto/2020/01/12/yola/42515/</link>
+			<guid>http://justsho.ws/wsz</guid>
+			<pubDate>Wed, 18 Sep 2019 16:44:48 -0400</pubDate>
+			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
 			<title>January 14, 2020 &#8212; Ron Pope</title>
@@ -829,11 +647,11 @@
 			<description>at Rebel</description>
 		</item>
 		<item>
-			<title>January 17, 2020 &#8212; Atmosphere</title>
-			<link>http://justshows.com/toronto/2020/01/17/atmosphere/43216/</link>
-			<guid>http://justsho.ws/xcg</guid>
-			<pubDate>Fri, 08 Nov 2019 13:28:59 -0500</pubDate>
-			<description>with The Lioness, Nikki Jean and DJ Keezy at The Danforth Music Hall</description>
+			<title>January 17, 2020 &#8212; iskwē</title>
+			<link>http://justshows.com/toronto/2020/01/17/iskwe/43226/</link>
+			<guid>http://justsho.ws/xcq</guid>
+			<pubDate>Fri, 08 Nov 2019 13:46:17 -0500</pubDate>
+			<description>at The Mod Club</description>
 		</item>
 		<item>
 			<title>January 17, 2020 &#8212; Anyway Gang</title>
@@ -843,18 +661,18 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>January 17, 2020 &#8212; iskwē</title>
-			<link>http://justshows.com/toronto/2020/01/17/iskwe/43226/</link>
-			<guid>http://justsho.ws/xcq</guid>
-			<pubDate>Fri, 08 Nov 2019 13:46:17 -0500</pubDate>
-			<description>at The Mod Club</description>
+			<title>January 17, 2020 &#8212; Atmosphere</title>
+			<link>http://justshows.com/toronto/2020/01/17/atmosphere/43216/</link>
+			<guid>http://justsho.ws/xcg</guid>
+			<pubDate>Fri, 08 Nov 2019 13:28:59 -0500</pubDate>
+			<description>with The Lioness, Nikki Jean and DJ Keezy at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>January 18, 2020 &#8212; Great Good Fine OK</title>
-			<link>http://justshows.com/toronto/2020/01/18/great-good-fine-ok/42952/</link>
-			<guid>http://justsho.ws/x54</guid>
-			<pubDate>Mon, 21 Oct 2019 17:07:32 -0400</pubDate>
-			<description>at The Garrison</description>
+			<title>January 18, 2020 &#8212; Mike Gordon</title>
+			<link>http://justshows.com/toronto/2020/01/18/mike-gordon/42395/</link>
+			<guid>http://justsho.ws/wpn</guid>
+			<pubDate>Wed, 11 Sep 2019 17:24:01 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>January 18, 2020 &#8212; Megan &amp; Liz</title>
@@ -864,11 +682,11 @@
 			<description>at The Velvet Underground</description>
 		</item>
 		<item>
-			<title>January 18, 2020 &#8212; Mike Gordon</title>
-			<link>http://justshows.com/toronto/2020/01/18/mike-gordon/42395/</link>
-			<guid>http://justsho.ws/wpn</guid>
-			<pubDate>Wed, 11 Sep 2019 17:24:01 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>January 18, 2020 &#8212; Great Good Fine OK</title>
+			<link>http://justshows.com/toronto/2020/01/18/great-good-fine-ok/42952/</link>
+			<guid>http://justsho.ws/x54</guid>
+			<pubDate>Mon, 21 Oct 2019 17:07:32 -0400</pubDate>
+			<description>at The Garrison</description>
 		</item>
 		<item>
 			<title>January 19, 2020 &#8212; Beartooth</title>
@@ -906,13 +724,6 @@
 			<description>at The Dakota Tavern</description>
 		</item>
 		<item>
-			<title>January 23, 2020 &#8212; The Jim Cuddy Band</title>
-			<link>http://justshows.com/toronto/2020/01/23/the-jim-cuddy-band/42507/</link>
-			<guid>http://justsho.ws/wsr</guid>
-			<pubDate>Wed, 18 Sep 2019 16:43:09 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
 			<title>January 23, 2020 &#8212; The Strumbellas</title>
 			<link>http://justshows.com/toronto/2020/01/23/the-strumbellas/42371/</link>
 			<guid>http://justsho.ws/woz</guid>
@@ -920,11 +731,11 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>January 24, 2020 &#8212; Lucidious</title>
-			<link>http://justshows.com/toronto/2020/01/24/lucidious/42824/</link>
-			<guid>http://justsho.ws/x1k</guid>
-			<pubDate>Fri, 11 Oct 2019 13:10:55 -0400</pubDate>
-			<description>at The Garrison</description>
+			<title>January 23, 2020 &#8212; The Jim Cuddy Band</title>
+			<link>http://justshows.com/toronto/2020/01/23/the-jim-cuddy-band/42507/</link>
+			<guid>http://justsho.ws/wsr</guid>
+			<pubDate>Wed, 18 Sep 2019 16:43:09 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>January 24, 2020 &#8212; The Jim Cuddy Band</title>
@@ -941,11 +752,18 @@
 			<description>at The Baby G</description>
 		</item>
 		<item>
-			<title>January 25, 2020 &#8212; Your Smith</title>
-			<link>http://justshows.com/toronto/2020/01/25/your-smith/42953/</link>
-			<guid>http://justsho.ws/x55</guid>
-			<pubDate>Mon, 21 Oct 2019 17:08:35 -0400</pubDate>
-			<description>at The Drake Hotel</description>
+			<title>January 24, 2020 &#8212; Lucidious</title>
+			<link>http://justshows.com/toronto/2020/01/24/lucidious/42824/</link>
+			<guid>http://justsho.ws/x1k</guid>
+			<pubDate>Fri, 11 Oct 2019 13:10:55 -0400</pubDate>
+			<description>at The Garrison</description>
+		</item>
+		<item>
+			<title>January 25, 2020 &#8212; The Strumbellas</title>
+			<link>http://justshows.com/toronto/2020/01/25/the-strumbellas/42372/</link>
+			<guid>http://justsho.ws/wp0</guid>
+			<pubDate>Mon, 09 Sep 2019 16:54:03 -0400</pubDate>
+			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
 			<title>January 25, 2020 &#8212; Damien Jurado</title>
@@ -962,11 +780,11 @@
 			<description>with Retirement Party and Macseal at The Monarch Tavern</description>
 		</item>
 		<item>
-			<title>January 25, 2020 &#8212; The Strumbellas</title>
-			<link>http://justshows.com/toronto/2020/01/25/the-strumbellas/42372/</link>
-			<guid>http://justsho.ws/wp0</guid>
-			<pubDate>Mon, 09 Sep 2019 16:54:03 -0400</pubDate>
-			<description>at The Phoenix Concert Theatre</description>
+			<title>January 25, 2020 &#8212; Your Smith</title>
+			<link>http://justshows.com/toronto/2020/01/25/your-smith/42953/</link>
+			<guid>http://justsho.ws/x55</guid>
+			<pubDate>Mon, 21 Oct 2019 17:08:35 -0400</pubDate>
+			<description>at The Drake Hotel</description>
 		</item>
 		<item>
 			<title>January 26, 2020 &#8212; The Strumbellas</title>
@@ -1011,11 +829,11 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>January 30, 2020 &#8212; Cory Wong</title>
-			<link>http://justshows.com/toronto/2020/01/30/cory-wong/42913/</link>
-			<guid>http://justsho.ws/x41</guid>
-			<pubDate>Wed, 16 Oct 2019 15:31:21 -0400</pubDate>
-			<description>at The Phoenix Concert Theatre</description>
+			<title>January 30, 2020 &#8212; Half Moon Run</title>
+			<link>http://justshows.com/toronto/2020/01/30/half-moon-run/42448/</link>
+			<guid>http://justsho.ws/wr4</guid>
+			<pubDate>Sat, 14 Sep 2019 15:05:08 -0400</pubDate>
+			<description>at Rebel</description>
 		</item>
 		<item>
 			<title>January 30, 2020 &#8212; Rex Orange County</title>
@@ -1025,18 +843,18 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>January 30, 2020 &#8212; Half Moon Run</title>
-			<link>http://justshows.com/toronto/2020/01/30/half-moon-run/42448/</link>
-			<guid>http://justsho.ws/wr4</guid>
-			<pubDate>Sat, 14 Sep 2019 15:05:08 -0400</pubDate>
-			<description>at Rebel</description>
+			<title>January 30, 2020 &#8212; Cory Wong</title>
+			<link>http://justshows.com/toronto/2020/01/30/cory-wong/42913/</link>
+			<guid>http://justsho.ws/x41</guid>
+			<pubDate>Wed, 16 Oct 2019 15:31:21 -0400</pubDate>
+			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>January 31, 2020 &#8212; Rex Orange County</title>
-			<link>http://justshows.com/toronto/2020/01/31/rex-orange-county/42666/</link>
-			<guid>http://justsho.ws/wx6</guid>
-			<pubDate>Fri, 27 Sep 2019 16:56:03 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>January 30, 2020 &#8212; Material Girls</title>
+			<link>http://justshows.com/toronto/2020/01/30/material-girls/43601/</link>
+			<guid>http://justsho.ws/xn5</guid>
+			<pubDate>Fri, 06 Dec 2019 18:47:13 -0500</pubDate>
+			<description>at Handlebar</description>
 		</item>
 		<item>
 			<title>January 31, 2020 &#8212; Hot Water Music</title>
@@ -1060,11 +878,11 @@
 			<description>at Sony Centre</description>
 		</item>
 		<item>
-			<title>February 1, 2020 &#8212; Moein</title>
-			<link>http://justshows.com/toronto/2020/02/01/moein/43338/</link>
-			<guid>http://justsho.ws/xfu</guid>
-			<pubDate>Fri, 15 Nov 2019 11:43:02 -0500</pubDate>
-			<description>at Sony Centre</description>
+			<title>January 31, 2020 &#8212; Rex Orange County</title>
+			<link>http://justshows.com/toronto/2020/01/31/rex-orange-county/42666/</link>
+			<guid>http://justsho.ws/wx6</guid>
+			<pubDate>Fri, 27 Sep 2019 16:56:03 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>February 1, 2020 &#8212; Hot Water Music</title>
@@ -1074,6 +892,13 @@
 			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
+			<title>February 1, 2020 &#8212; Moein</title>
+			<link>http://justshows.com/toronto/2020/02/01/moein/43338/</link>
+			<guid>http://justsho.ws/xfu</guid>
+			<pubDate>Fri, 15 Nov 2019 11:43:02 -0500</pubDate>
+			<description>at Sony Centre</description>
+		</item>
+		<item>
 			<title>February 1, 2020 &#8212; Possum</title>
 			<link>http://justshows.com/toronto/2020/02/01/possum/43451/</link>
 			<guid>http://justsho.ws/xiz</guid>
@@ -1081,18 +906,18 @@
 			<description>with Mother Tongues, Vypers and Carinae at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>February 1, 2020 &#8212; Illiterate Light</title>
-			<link>http://justshows.com/toronto/2020/02/01/illiterate-light/42880/</link>
-			<guid>http://justsho.ws/x34</guid>
-			<pubDate>Tue, 15 Oct 2019 14:41:02 -0400</pubDate>
-			<description>at The Drake Hotel</description>
-		</item>
-		<item>
 			<title>February 1, 2020 &#8212; Ripe</title>
 			<link>http://justshows.com/toronto/2020/02/01/ripe/42115/</link>
 			<guid>http://justsho.ws/whv</guid>
 			<pubDate>Wed, 21 Aug 2019 13:58:37 -0400</pubDate>
 			<description>with Joe Hertler &amp; the Rainbow Seekers at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>February 1, 2020 &#8212; Illiterate Light</title>
+			<link>http://justshows.com/toronto/2020/02/01/illiterate-light/42880/</link>
+			<guid>http://justsho.ws/x34</guid>
+			<pubDate>Tue, 15 Oct 2019 14:41:02 -0400</pubDate>
+			<description>at The Drake Hotel</description>
 		</item>
 		<item>
 			<title>February 2, 2020 &#8212; Calexico and Iron &amp; Wine</title>
@@ -1109,13 +934,6 @@
 			<description>with Audrey Mika at Sony Centre</description>
 		</item>
 		<item>
-			<title>February 2, 2020 &#8212; Poppy</title>
-			<link>http://justshows.com/toronto/2020/02/02/poppy/43186/</link>
-			<guid>http://justsho.ws/xbm</guid>
-			<pubDate>Wed, 06 Nov 2019 12:18:25 -0500</pubDate>
-			<description>at The Opera House</description>
-		</item>
-		<item>
 			<title>February 2, 2020 &#8212; Sons of Apollo</title>
 			<link>http://justshows.com/toronto/2020/02/02/sons-of-apollo/42107/</link>
 			<guid>http://justsho.ws/whn</guid>
@@ -1123,11 +941,11 @@
 			<description>with Tony MacAlpine at The Mod Club</description>
 		</item>
 		<item>
-			<title>February 3, 2020 &#8212; The Wood Brothers</title>
-			<link>http://justshows.com/toronto/2020/02/03/the-wood-brothers/42406/</link>
-			<guid>http://justsho.ws/wpy</guid>
-			<pubDate>Wed, 11 Sep 2019 17:25:36 -0400</pubDate>
-			<description>at The Mod Club</description>
+			<title>February 2, 2020 &#8212; Poppy</title>
+			<link>http://justshows.com/toronto/2020/02/02/poppy/43186/</link>
+			<guid>http://justsho.ws/xbm</guid>
+			<pubDate>Wed, 06 Nov 2019 12:18:25 -0500</pubDate>
+			<description>at The Opera House</description>
 		</item>
 		<item>
 			<title>February 3, 2020 &#8212; Miniature Tigers</title>
@@ -1135,6 +953,13 @@
 			<guid>http://justsho.ws/x44</guid>
 			<pubDate>Wed, 16 Oct 2019 15:39:13 -0400</pubDate>
 			<description>at Hard Luck</description>
+		</item>
+		<item>
+			<title>February 3, 2020 &#8212; The Wood Brothers</title>
+			<link>http://justshows.com/toronto/2020/02/03/the-wood-brothers/42406/</link>
+			<guid>http://justsho.ws/wpy</guid>
+			<pubDate>Wed, 11 Sep 2019 17:25:36 -0400</pubDate>
+			<description>at The Mod Club</description>
 		</item>
 		<item>
 			<title>February 4, 2020 &#8212; Machine Head</title>
@@ -1158,11 +983,11 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>February 6, 2020 &#8212; Jordan Hart</title>
-			<link>http://justshows.com/toronto/2020/02/06/jordan-hart/42954/</link>
-			<guid>http://justsho.ws/x56</guid>
-			<pubDate>Mon, 21 Oct 2019 17:09:25 -0400</pubDate>
-			<description>at The Great Hall</description>
+			<title>February 6, 2020 &#8212; Michael Kiwanuka</title>
+			<link>http://justshows.com/toronto/2020/02/06/michael-kiwanuka/42788/</link>
+			<guid>http://justsho.ws/x0k</guid>
+			<pubDate>Wed, 09 Oct 2019 13:43:18 -0400</pubDate>
+			<description>at Rebel</description>
 		</item>
 		<item>
 			<title>February 6, 2020 &#8212; Donny Benet</title>
@@ -1172,18 +997,11 @@
 			<description>at The Drake Hotel</description>
 		</item>
 		<item>
-			<title>February 6, 2020 &#8212; Michael Kiwanuka</title>
-			<link>http://justshows.com/toronto/2020/02/06/michael-kiwanuka/42788/</link>
-			<guid>http://justsho.ws/x0k</guid>
-			<pubDate>Wed, 09 Oct 2019 13:43:18 -0400</pubDate>
-			<description>at Rebel</description>
-		</item>
-		<item>
-			<title>February 7, 2020 &#8212; Nightmre</title>
-			<link>http://justshows.com/toronto/2020/02/07/nightmre/42828/</link>
-			<guid>http://justsho.ws/x1o</guid>
-			<pubDate>Fri, 11 Oct 2019 13:11:45 -0400</pubDate>
-			<description>with Kompany, Effin and black a.m. at The Danforth Music Hall</description>
+			<title>February 6, 2020 &#8212; Jordan Hart</title>
+			<link>http://justshows.com/toronto/2020/02/06/jordan-hart/42954/</link>
+			<guid>http://justsho.ws/x56</guid>
+			<pubDate>Mon, 21 Oct 2019 17:09:25 -0400</pubDate>
+			<description>at The Great Hall</description>
 		</item>
 		<item>
 			<title>February 7, 2020 &#8212; Tebey</title>
@@ -1200,6 +1018,27 @@
 			<description>with Two Friends at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
+			<title>February 7, 2020 &#8212; Nightmre</title>
+			<link>http://justshows.com/toronto/2020/02/07/nightmre/42828/</link>
+			<guid>http://justsho.ws/x1o</guid>
+			<pubDate>Fri, 11 Oct 2019 13:11:45 -0400</pubDate>
+			<description>with Kompany, Effin and black a.m. at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>February 8, 2020 &#8212; Tayla Parx</title>
+			<link>http://justshows.com/toronto/2020/02/08/tayla-parx/43617/</link>
+			<guid>http://justsho.ws/xnl</guid>
+			<pubDate>Fri, 06 Dec 2019 19:04:25 -0500</pubDate>
+			<description>at The Baby G</description>
+		</item>
+		<item>
+			<title>February 8, 2020 &#8212; Rufus Wainwright</title>
+			<link>http://justshows.com/toronto/2020/02/08/rufus-wainwright/43403/</link>
+			<guid>http://justsho.ws/xhn</guid>
+			<pubDate>Wed, 20 Nov 2019 15:23:26 -0500</pubDate>
+			<description>at Queen Elizabeth Theatre</description>
+		</item>
+		<item>
 			<title>February 8, 2020 &#8212; Metronomy</title>
 			<link>http://justshows.com/toronto/2020/02/08/metronomy/42602/</link>
 			<guid>http://justsho.ws/wve</guid>
@@ -1212,13 +1051,6 @@
 			<guid>http://justsho.ws/x3r</guid>
 			<pubDate>Wed, 16 Oct 2019 15:30:02 -0400</pubDate>
 			<description>at The Phoenix Concert Theatre</description>
-		</item>
-		<item>
-			<title>February 8, 2020 &#8212; Rufus Wainwright</title>
-			<link>http://justshows.com/toronto/2020/02/08/rufus-wainwright/43403/</link>
-			<guid>http://justsho.ws/xhn</guid>
-			<pubDate>Wed, 20 Nov 2019 15:23:26 -0500</pubDate>
-			<description>at Queen Elizabeth Theatre</description>
 		</item>
 		<item>
 			<title>February 9, 2020 &#8212; Earthgang</title>
@@ -1249,25 +1081,18 @@
 			<description>at The Drake Hotel</description>
 		</item>
 		<item>
+			<title>February 14, 2020 &#8212; Jason Ross</title>
+			<link>http://justshows.com/toronto/2020/02/14/jason-ross/42971/</link>
+			<guid>http://justsho.ws/x5n</guid>
+			<pubDate>Thu, 24 Oct 2019 11:36:22 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
 			<title>February 14, 2020 &#8212; Reuben and the Dark</title>
 			<link>http://justshows.com/toronto/2020/02/14/reuben-and-the-dark/42605/</link>
 			<guid>http://justsho.ws/wvh</guid>
 			<pubDate>Tue, 24 Sep 2019 07:40:58 -0400</pubDate>
 			<description>at The Great Hall</description>
-		</item>
-		<item>
-			<title>February 14, 2020 &#8212; Electric Guest</title>
-			<link>http://justshows.com/toronto/2020/02/14/electric-guest/42278/</link>
-			<guid>http://justsho.ws/wme</guid>
-			<pubDate>Wed, 04 Sep 2019 08:41:19 -0400</pubDate>
-			<description>with Soleima at The Mod Club</description>
-		</item>
-		<item>
-			<title>February 14, 2020 &#8212; Post Malone</title>
-			<link>http://justshows.com/toronto/2020/02/14/post-malone/43408/</link>
-			<guid>http://justsho.ws/xhs</guid>
-			<pubDate>Wed, 20 Nov 2019 15:24:29 -0500</pubDate>
-			<description>with Swae Lee and Tyla Yaweh at Scotiabank Arena (Formerly Air Canada Centre)</description>
 		</item>
 		<item>
 			<title>February 14, 2020 &#8212; Whitney</title>
@@ -1277,11 +1102,18 @@
 			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>February 14, 2020 &#8212; Jason Ross</title>
-			<link>http://justshows.com/toronto/2020/02/14/jason-ross/42971/</link>
-			<guid>http://justsho.ws/x5n</guid>
-			<pubDate>Thu, 24 Oct 2019 11:36:22 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>February 14, 2020 &#8212; Post Malone</title>
+			<link>http://justshows.com/toronto/2020/02/14/post-malone/43408/</link>
+			<guid>http://justsho.ws/xhs</guid>
+			<pubDate>Wed, 20 Nov 2019 15:24:29 -0500</pubDate>
+			<description>with Swae Lee and Tyla Yaweh at Scotiabank Arena (Formerly Air Canada Centre)</description>
+		</item>
+		<item>
+			<title>February 14, 2020 &#8212; Electric Guest</title>
+			<link>http://justshows.com/toronto/2020/02/14/electric-guest/42278/</link>
+			<guid>http://justsho.ws/wme</guid>
+			<pubDate>Wed, 04 Sep 2019 08:41:19 -0400</pubDate>
+			<description>with Soleima at The Mod Club</description>
 		</item>
 		<item>
 			<title>February 15, 2020 &#8212; Zion I</title>
@@ -1298,6 +1130,13 @@
 			<description>with Alma at Queen Elizabeth Theatre</description>
 		</item>
 		<item>
+			<title>February 17, 2020 &#8212; Emily King</title>
+			<link>http://justshows.com/toronto/2020/02/17/emily-king/43605/</link>
+			<guid>http://justsho.ws/xn9</guid>
+			<pubDate>Fri, 06 Dec 2019 18:48:52 -0500</pubDate>
+			<description>at The Drake Hotel</description>
+		</item>
+		<item>
 			<title>February 17, 2020 &#8212; Echosmith</title>
 			<link>http://justshows.com/toronto/2020/02/17/echosmith/42904/</link>
 			<guid>http://justsho.ws/x3s</guid>
@@ -1312,18 +1151,25 @@
 			<description>at The Mod Club</description>
 		</item>
 		<item>
-			<title>February 19, 2020 &#8212; Opeth</title>
-			<link>http://justshows.com/toronto/2020/02/19/opeth/42733/</link>
-			<guid>http://justsho.ws/wz1</guid>
-			<pubDate>Fri, 04 Oct 2019 13:18:20 -0400</pubDate>
-			<description>with Graveyard at Rebel</description>
-		</item>
-		<item>
 			<title>February 19, 2020 &#8212; Slow Hollows</title>
 			<link>http://justshows.com/toronto/2020/02/19/slow-hollows/42995/</link>
 			<guid>http://justsho.ws/x6b</guid>
 			<pubDate>Thu, 24 Oct 2019 11:46:36 -0400</pubDate>
 			<description>at The Garrison</description>
+		</item>
+		<item>
+			<title>February 19, 2020 &#8212; The Franklin Electric</title>
+			<link>http://justshows.com/toronto/2020/02/19/the-franklin-electric/43600/</link>
+			<guid>http://justsho.ws/xn4</guid>
+			<pubDate>Fri, 06 Dec 2019 18:47:06 -0500</pubDate>
+			<description>at The Horseshoe Tavern</description>
+		</item>
+		<item>
+			<title>February 19, 2020 &#8212; Opeth</title>
+			<link>http://justshows.com/toronto/2020/02/19/opeth/42733/</link>
+			<guid>http://justsho.ws/wz1</guid>
+			<pubDate>Fri, 04 Oct 2019 13:18:20 -0400</pubDate>
+			<description>with Graveyard at Rebel</description>
 		</item>
 		<item>
 			<title>February 20, 2020 &#8212; Saint Motel</title>
@@ -1333,18 +1179,18 @@
 			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>February 21, 2020 &#8212; Old Dominion</title>
-			<link>http://justshows.com/toronto/2020/02/21/old-dominion/42399/</link>
-			<guid>http://justsho.ws/wpr</guid>
-			<pubDate>Wed, 11 Sep 2019 17:24:36 -0400</pubDate>
-			<description>with Mitchell Tenpenny and Meghan Patrick at Coca-Cola Coliseum (formerly Ricoh Coliseum)</description>
-		</item>
-		<item>
 			<title>February 21, 2020 &#8212; Blackie and the Rodeo Kings</title>
 			<link>http://justshows.com/toronto/2020/02/21/blackie-and-the-rodeo-kings/42983/</link>
 			<guid>http://justsho.ws/x5z</guid>
 			<pubDate>Thu, 24 Oct 2019 11:38:13 -0400</pubDate>
 			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>February 21, 2020 &#8212; Old Dominion</title>
+			<link>http://justshows.com/toronto/2020/02/21/old-dominion/42399/</link>
+			<guid>http://justsho.ws/wpr</guid>
+			<pubDate>Wed, 11 Sep 2019 17:24:36 -0400</pubDate>
+			<description>with Mitchell Tenpenny and Meghan Patrick at Coca-Cola Coliseum (formerly Ricoh Coliseum)</description>
 		</item>
 		<item>
 			<title>February 22, 2020 &#8212; Bat for Lashes</title>
@@ -1375,6 +1221,20 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
+			<title>February 23, 2020 &#8212; Nektar</title>
+			<link>http://justshows.com/toronto/2020/02/23/nektar/43613/</link>
+			<guid>http://justsho.ws/xnh</guid>
+			<pubDate>Fri, 06 Dec 2019 18:59:47 -0500</pubDate>
+			<description>at The Garrison</description>
+		</item>
+		<item>
+			<title>February 24, 2020 &#8212; Eric Nam</title>
+			<link>http://justshows.com/toronto/2020/02/24/eric-nam/43572/</link>
+			<guid>http://justsho.ws/xmc</guid>
+			<pubDate>Wed, 04 Dec 2019 12:45:54 -0500</pubDate>
+			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
 			<title>February 24, 2020 &#8212; Hayley Kiyoko</title>
 			<link>http://justshows.com/toronto/2020/02/24/hayley-kiyoko/42878/</link>
 			<guid>http://justsho.ws/x32</guid>
@@ -1389,18 +1249,11 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>February 24, 2020 &#8212; Eric Nam</title>
-			<link>http://justshows.com/toronto/2020/02/24/eric-nam/43572/</link>
-			<guid>http://justsho.ws/xmc</guid>
-			<pubDate>Wed, 04 Dec 2019 12:45:54 -0500</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
-			<title>February 25, 2020 &#8212; Bambara</title>
-			<link>http://justshows.com/toronto/2020/02/25/bambara/42769/</link>
-			<guid>http://justsho.ws/x01</guid>
-			<pubDate>Mon, 07 Oct 2019 09:23:11 -0400</pubDate>
-			<description>at The Garrison</description>
+			<title>February 25, 2020 &#8212; Chelsea Cutler</title>
+			<link>http://justshows.com/toronto/2020/02/25/chelsea-cutler/43183/</link>
+			<guid>http://justsho.ws/xbj</guid>
+			<pubDate>Wed, 06 Nov 2019 12:18:06 -0500</pubDate>
+			<description>with Alexander 23 at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>February 25, 2020 &#8212; Refused</title>
@@ -1410,11 +1263,11 @@
 			<description>with Youth Code at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>February 25, 2020 &#8212; Super Whatvr</title>
-			<link>http://justshows.com/toronto/2020/02/25/super-whatvr/43348/</link>
-			<guid>http://justsho.ws/xg4</guid>
-			<pubDate>Fri, 15 Nov 2019 11:58:37 -0500</pubDate>
-			<description>at Hard Luck</description>
+			<title>February 25, 2020 &#8212; Bambara</title>
+			<link>http://justshows.com/toronto/2020/02/25/bambara/42769/</link>
+			<guid>http://justsho.ws/x01</guid>
+			<pubDate>Mon, 07 Oct 2019 09:23:11 -0400</pubDate>
+			<description>at The Garrison</description>
 		</item>
 		<item>
 			<title>February 25, 2020 &#8212; Eric Johnson Classics: Present and Past</title>
@@ -1424,11 +1277,11 @@
 			<description>at The Opera House</description>
 		</item>
 		<item>
-			<title>February 25, 2020 &#8212; Chelsea Cutler</title>
-			<link>http://justshows.com/toronto/2020/02/25/chelsea-cutler/43183/</link>
-			<guid>http://justsho.ws/xbj</guid>
-			<pubDate>Wed, 06 Nov 2019 12:18:06 -0500</pubDate>
-			<description>with Alexander 23 at The Danforth Music Hall</description>
+			<title>February 25, 2020 &#8212; Super Whatvr</title>
+			<link>http://justshows.com/toronto/2020/02/25/super-whatvr/43348/</link>
+			<guid>http://justsho.ws/xg4</guid>
+			<pubDate>Fri, 15 Nov 2019 11:58:37 -0500</pubDate>
+			<description>at Hard Luck</description>
 		</item>
 		<item>
 			<title>February 26, 2020 &#8212; Gowan</title>
@@ -1438,11 +1291,11 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>February 27, 2020 &#8212; Stone Temple Pilots</title>
-			<link>http://justshows.com/toronto/2020/02/27/stone-temple-pilots/43542/</link>
-			<guid>http://justsho.ws/xli</guid>
-			<pubDate>Tue, 03 Dec 2019 12:39:25 -0500</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>February 27, 2020 &#8212; The Glorious Sons</title>
+			<link>http://justshows.com/toronto/2020/02/27/the-glorious-sons/42607/</link>
+			<guid>http://justsho.ws/wvj</guid>
+			<pubDate>Tue, 24 Sep 2019 07:41:14 -0400</pubDate>
+			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
 		</item>
 		<item>
 			<title>February 27, 2020 &#8212; Theory of a Deadman</title>
@@ -1452,11 +1305,18 @@
 			<description>at Rebel</description>
 		</item>
 		<item>
-			<title>February 27, 2020 &#8212; The Glorious Sons</title>
-			<link>http://justshows.com/toronto/2020/02/27/the-glorious-sons/42607/</link>
-			<guid>http://justsho.ws/wvj</guid>
-			<pubDate>Tue, 24 Sep 2019 07:41:14 -0400</pubDate>
-			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
+			<title>February 27, 2020 &#8212; Royal Tusk</title>
+			<link>http://justshows.com/toronto/2020/02/27/royal-tusk/43606/</link>
+			<guid>http://justsho.ws/xna</guid>
+			<pubDate>Fri, 06 Dec 2019 18:49:45 -0500</pubDate>
+			<description>at Lee’s Palace</description>
+		</item>
+		<item>
+			<title>February 27, 2020 &#8212; Stone Temple Pilots</title>
+			<link>http://justshows.com/toronto/2020/02/27/stone-temple-pilots/43542/</link>
+			<guid>http://justsho.ws/xli</guid>
+			<pubDate>Tue, 03 Dec 2019 12:39:25 -0500</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>February 28, 2020 &#8212; The Beaches</title>
@@ -1466,18 +1326,18 @@
 			<description>with Valley and Fade Awaays at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>February 29, 2020 &#8212; Black Lips</title>
-			<link>http://justshows.com/toronto/2020/02/29/black-lips/43264/</link>
-			<guid>http://justsho.ws/xds</guid>
-			<pubDate>Mon, 11 Nov 2019 16:10:19 -0500</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
 			<title>February 29, 2020 &#8212; While She Sleeps</title>
 			<link>http://justshows.com/toronto/2020/02/29/while-she-sleeps/43459/</link>
 			<guid>http://justsho.ws/xj7</guid>
 			<pubDate>Fri, 22 Nov 2019 13:16:19 -0500</pubDate>
 			<description>at Hard Luck</description>
+		</item>
+		<item>
+			<title>February 29, 2020 &#8212; Black Lips</title>
+			<link>http://justshows.com/toronto/2020/02/29/black-lips/43264/</link>
+			<guid>http://justsho.ws/xds</guid>
+			<pubDate>Mon, 11 Nov 2019 16:10:19 -0500</pubDate>
+			<description>at Lee’s Palace</description>
 		</item>
 		<item>
 			<title>February 29, 2020 &#8212; Jeremie Albino</title>
@@ -1515,18 +1375,18 @@
 			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>March 4, 2020 &#8212; Radical Face</title>
-			<link>http://justshows.com/toronto/2020/03/04/radical-face/42360/</link>
-			<guid>http://justsho.ws/woo</guid>
-			<pubDate>Mon, 09 Sep 2019 16:40:57 -0400</pubDate>
-			<description>at The Mod Club</description>
-		</item>
-		<item>
 			<title>March 4, 2020 &#8212; Summer Salt</title>
 			<link>http://justshows.com/toronto/2020/03/04/summer-salt/43224/</link>
 			<guid>http://justsho.ws/xco</guid>
 			<pubDate>Fri, 08 Nov 2019 13:43:43 -0500</pubDate>
 			<description>at The Velvet Underground</description>
+		</item>
+		<item>
+			<title>March 4, 2020 &#8212; Radical Face</title>
+			<link>http://justshows.com/toronto/2020/03/04/radical-face/42360/</link>
+			<guid>http://justsho.ws/woo</guid>
+			<pubDate>Mon, 09 Sep 2019 16:40:57 -0400</pubDate>
+			<description>at The Mod Club</description>
 		</item>
 		<item>
 			<title>March 4, 2020 &#8212; Destroyer</title>
@@ -1550,6 +1410,27 @@
 			<description>with John Paul White at The Danforth Music Hall</description>
 		</item>
 		<item>
+			<title>March 5, 2020 &#8212; Bonds of Mara</title>
+			<link>http://justshows.com/toronto/2020/03/05/bonds-of-mara/43607/</link>
+			<guid>http://justsho.ws/xnb</guid>
+			<pubDate>Fri, 06 Dec 2019 18:50:58 -0500</pubDate>
+			<description>at The Horseshoe Tavern</description>
+		</item>
+		<item>
+			<title>March 6, 2020 &#8212; Wish You Were Here</title>
+			<link>http://justshows.com/toronto/2020/03/06/wish-you-were-here/43608/</link>
+			<guid>http://justsho.ws/xnc</guid>
+			<pubDate>Fri, 06 Dec 2019 18:54:06 -0500</pubDate>
+			<description>at The Baby G</description>
+		</item>
+		<item>
+			<title>March 6, 2020 &#8212; Limblifter</title>
+			<link>http://justshows.com/toronto/2020/03/06/limblifter/42374/</link>
+			<guid>http://justsho.ws/wp2</guid>
+			<pubDate>Mon, 09 Sep 2019 16:56:26 -0400</pubDate>
+			<description>at The Horseshoe Tavern</description>
+		</item>
+		<item>
 			<title>March 6, 2020 &#8212; Sudan Archives</title>
 			<link>http://justshows.com/toronto/2020/03/06/sudan-archives/43101/</link>
 			<guid>http://justsho.ws/x99</guid>
@@ -1562,13 +1443,6 @@
 			<guid>http://justsho.ws/xeb</guid>
 			<pubDate>Wed, 13 Nov 2019 10:03:35 -0500</pubDate>
 			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
-			<title>March 6, 2020 &#8212; Limblifter</title>
-			<link>http://justshows.com/toronto/2020/03/06/limblifter/42374/</link>
-			<guid>http://justsho.ws/wp2</guid>
-			<pubDate>Mon, 09 Sep 2019 16:56:26 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
 			<title>March 7, 2020 &#8212; Josh Bogert</title>
@@ -1585,6 +1459,20 @@
 			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
 		</item>
 		<item>
+			<title>March 8, 2020 &#8212; Nathaniel Rateliff</title>
+			<link>http://justshows.com/toronto/2020/03/08/nathaniel-rateliff/43417/</link>
+			<guid>http://justsho.ws/xi1</guid>
+			<pubDate>Wed, 20 Nov 2019 15:35:31 -0500</pubDate>
+			<description>at Roy Thomson Hall</description>
+		</item>
+		<item>
+			<title>March 8, 2020 &#8212; The Mauskovic Dance Band</title>
+			<link>http://justshows.com/toronto/2020/03/08/the-mauskovic-dance-band/43614/</link>
+			<guid>http://justsho.ws/xni</guid>
+			<pubDate>Fri, 06 Dec 2019 19:00:47 -0500</pubDate>
+			<description>at The Garrison</description>
+		</item>
+		<item>
 			<title>March 8, 2020 &#8212; Christone “Kingfish” Ingram</title>
 			<link>http://justshows.com/toronto/2020/03/08/christone-kingfish-ingram/43418/</link>
 			<guid>http://justsho.ws/xi2</guid>
@@ -1592,11 +1480,11 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>March 8, 2020 &#8212; Nathaniel Rateliff</title>
-			<link>http://justshows.com/toronto/2020/03/08/nathaniel-rateliff/43417/</link>
-			<guid>http://justsho.ws/xi1</guid>
-			<pubDate>Wed, 20 Nov 2019 15:35:31 -0500</pubDate>
-			<description>at Roy Thomson Hall</description>
+			<title>March 10, 2020 &#8212; Bad Bad Hats</title>
+			<link>http://justshows.com/toronto/2020/03/10/bad-bad-hats/43609/</link>
+			<guid>http://justsho.ws/xnd</guid>
+			<pubDate>Fri, 06 Dec 2019 18:55:13 -0500</pubDate>
+			<description>at The Garrison</description>
 		</item>
 		<item>
 			<title>March 10, 2020 &#8212; Adam Green</title>
@@ -1634,11 +1522,11 @@
 			<description>with Lorelle Meets the Obsolete at The Garrison</description>
 		</item>
 		<item>
-			<title>March 14, 2020 &#8212; The Teskey Brothers</title>
-			<link>http://justshows.com/toronto/2020/03/14/the-teskey-brothers/41953/</link>
-			<guid>http://justsho.ws/wdd</guid>
-			<pubDate>Tue, 06 Aug 2019 18:49:54 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>March 14, 2020 &#8212; Tall Heights</title>
+			<link>http://justshows.com/toronto/2020/03/14/tall-heights/42996/</link>
+			<guid>http://justsho.ws/x6c</guid>
+			<pubDate>Thu, 24 Oct 2019 11:47:30 -0400</pubDate>
+			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
 			<title>March 14, 2020 &#8212; Theo Katzman</title>
@@ -1648,18 +1536,11 @@
 			<description>at The Opera House</description>
 		</item>
 		<item>
-			<title>March 14, 2020 &#8212; Tall Heights</title>
-			<link>http://justshows.com/toronto/2020/03/14/tall-heights/42996/</link>
-			<guid>http://justsho.ws/x6c</guid>
-			<pubDate>Thu, 24 Oct 2019 11:47:30 -0400</pubDate>
-			<description>at The Horseshoe Tavern</description>
-		</item>
-		<item>
-			<title>March 15, 2020 &#8212; Zac Brown Band</title>
-			<link>http://justshows.com/toronto/2020/03/15/zac-brown-band/43337/</link>
-			<guid>http://justsho.ws/xft</guid>
-			<pubDate>Fri, 15 Nov 2019 11:42:51 -0500</pubDate>
-			<description>with Amos Lee at Scotiabank Arena (Formerly Air Canada Centre)</description>
+			<title>March 14, 2020 &#8212; The Teskey Brothers</title>
+			<link>http://justshows.com/toronto/2020/03/14/the-teskey-brothers/41953/</link>
+			<guid>http://justsho.ws/wdd</guid>
+			<pubDate>Tue, 06 Aug 2019 18:49:54 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>March 15, 2020 &#8212; Los Angeles Azules</title>
@@ -1669,11 +1550,18 @@
 			<description>at Sony Centre</description>
 		</item>
 		<item>
-			<title>March 16, 2020 &#8212; Wire</title>
-			<link>http://justshows.com/toronto/2020/03/16/wire/42986/</link>
-			<guid>http://justsho.ws/x62</guid>
-			<pubDate>Thu, 24 Oct 2019 11:38:33 -0400</pubDate>
-			<description>at The Great Hall</description>
+			<title>March 15, 2020 &#8212; Zac Brown Band</title>
+			<link>http://justshows.com/toronto/2020/03/15/zac-brown-band/43337/</link>
+			<guid>http://justsho.ws/xft</guid>
+			<pubDate>Fri, 15 Nov 2019 11:42:51 -0500</pubDate>
+			<description>with Amos Lee at Scotiabank Arena (Formerly Air Canada Centre)</description>
+		</item>
+		<item>
+			<title>March 15, 2020 &#8212; Mdou Moctar</title>
+			<link>http://justshows.com/toronto/2020/03/15/mdou-moctar/43615/</link>
+			<guid>http://justsho.ws/xnj</guid>
+			<pubDate>Fri, 06 Dec 2019 19:01:49 -0500</pubDate>
+			<description>at The Garrison</description>
 		</item>
 		<item>
 			<title>March 16, 2020 &#8212; The Districts</title>
@@ -1683,11 +1571,11 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>March 17, 2020 &#8212; Caribou</title>
-			<link>http://justshows.com/toronto/2020/03/17/caribou/42784/</link>
-			<guid>http://justsho.ws/x0g</guid>
-			<pubDate>Wed, 09 Oct 2019 13:42:48 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>March 16, 2020 &#8212; Wire</title>
+			<link>http://justshows.com/toronto/2020/03/16/wire/42986/</link>
+			<guid>http://justsho.ws/x62</guid>
+			<pubDate>Thu, 24 Oct 2019 11:38:33 -0400</pubDate>
+			<description>at The Great Hall</description>
 		</item>
 		<item>
 			<title>March 17, 2020 &#8212; Olivia O'Brien</title>
@@ -1697,11 +1585,11 @@
 			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>March 18, 2020 &#8212; Thundercat</title>
-			<link>http://justshows.com/toronto/2020/03/18/thundercat/43573/</link>
-			<guid>http://justsho.ws/xmd</guid>
-			<pubDate>Wed, 04 Dec 2019 12:46:03 -0500</pubDate>
-			<description>at Queen Elizabeth Theatre</description>
+			<title>March 17, 2020 &#8212; Caribou</title>
+			<link>http://justshows.com/toronto/2020/03/17/caribou/42784/</link>
+			<guid>http://justsho.ws/x0g</guid>
+			<pubDate>Wed, 09 Oct 2019 13:42:48 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>March 18, 2020 &#8212; Sturgill Simpson</title>
@@ -1711,11 +1599,11 @@
 			<description>with Tyler Childers at Coca-Cola Coliseum (formerly Ricoh Coliseum)</description>
 		</item>
 		<item>
-			<title>March 18, 2020 &#8212; Caribou</title>
-			<link>http://justshows.com/toronto/2020/03/18/caribou/42879/</link>
-			<guid>http://justsho.ws/x33</guid>
-			<pubDate>Tue, 15 Oct 2019 14:40:54 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
+			<title>March 18, 2020 &#8212; Thundercat</title>
+			<link>http://justshows.com/toronto/2020/03/18/thundercat/43573/</link>
+			<guid>http://justsho.ws/xmd</guid>
+			<pubDate>Wed, 04 Dec 2019 12:46:03 -0500</pubDate>
+			<description>at Queen Elizabeth Theatre</description>
 		</item>
 		<item>
 			<title>March 18, 2020 &#8212; Insomnium</title>
@@ -1723,6 +1611,13 @@
 			<guid>http://justsho.ws/w9o</guid>
 			<pubDate>Fri, 26 Jul 2019 18:17:01 -0400</pubDate>
 			<description>with Omnium Gatherum and Seven Spires at The Mod Club</description>
+		</item>
+		<item>
+			<title>March 18, 2020 &#8212; Caribou</title>
+			<link>http://justshows.com/toronto/2020/03/18/caribou/42879/</link>
+			<guid>http://justsho.ws/x33</guid>
+			<pubDate>Tue, 15 Oct 2019 14:40:54 -0400</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>March 19, 2020 &#8212; Matt Holubowski</title>
@@ -1739,6 +1634,13 @@
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
+			<title>March 21, 2020 &#8212; Bruno Major</title>
+			<link>http://justshows.com/toronto/2020/03/21/bruno-major/43540/</link>
+			<guid>http://justsho.ws/xlg</guid>
+			<pubDate>Tue, 03 Dec 2019 12:39:04 -0500</pubDate>
+			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
 			<title>March 21, 2020 &#8212; Dweezil Zappa</title>
 			<link>http://justshows.com/toronto/2020/03/21/dweezil-zappa/42905/</link>
 			<guid>http://justsho.ws/x3t</guid>
@@ -1751,13 +1653,6 @@
 			<guid>http://justsho.ws/x92</guid>
 			<pubDate>Wed, 30 Oct 2019 14:37:45 -0400</pubDate>
 			<description>at The Garrison</description>
-		</item>
-		<item>
-			<title>March 21, 2020 &#8212; Bruno Major</title>
-			<link>http://justshows.com/toronto/2020/03/21/bruno-major/43540/</link>
-			<guid>http://justsho.ws/xlg</guid>
-			<pubDate>Tue, 03 Dec 2019 12:39:04 -0500</pubDate>
-			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>March 22, 2020 &#8212; Leslie Odom, Jr.</title>
@@ -1809,20 +1704,6 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
-			<title>March 28, 2020 &#8212; Mighty Oaks</title>
-			<link>http://justshows.com/toronto/2020/03/28/mighty-oaks/43455/</link>
-			<guid>http://justsho.ws/xj3</guid>
-			<pubDate>Fri, 22 Nov 2019 13:08:47 -0500</pubDate>
-			<description>at The Garrison</description>
-		</item>
-		<item>
-			<title>March 28, 2020 &#8212; grandson</title>
-			<link>http://justshows.com/toronto/2020/03/28/grandson/43282/</link>
-			<guid>http://justsho.ws/xea</guid>
-			<pubDate>Wed, 13 Nov 2019 10:03:25 -0500</pubDate>
-			<description>with Bad Child and dubé at The Danforth Music Hall</description>
-		</item>
-		<item>
 			<title>March 28, 2020 &#8212; Avi Kaplan</title>
 			<link>http://justshows.com/toronto/2020/03/28/avi-kaplan/43180/</link>
 			<guid>http://justsho.ws/xbg</guid>
@@ -1837,11 +1718,32 @@
 			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
 		</item>
 		<item>
+			<title>March 28, 2020 &#8212; grandson</title>
+			<link>http://justshows.com/toronto/2020/03/28/grandson/43282/</link>
+			<guid>http://justsho.ws/xea</guid>
+			<pubDate>Wed, 13 Nov 2019 10:03:25 -0500</pubDate>
+			<description>with Bad Child and dubé at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>March 28, 2020 &#8212; Mighty Oaks</title>
+			<link>http://justshows.com/toronto/2020/03/28/mighty-oaks/43455/</link>
+			<guid>http://justsho.ws/xj3</guid>
+			<pubDate>Fri, 22 Nov 2019 13:08:47 -0500</pubDate>
+			<description>at The Garrison</description>
+		</item>
+		<item>
 			<title>March 29, 2020 &#8212; Elton John</title>
 			<link>http://justshows.com/toronto/2020/03/29/elton-john/43340/</link>
 			<guid>http://justsho.ws/xfw</guid>
 			<pubDate>Fri, 15 Nov 2019 11:43:22 -0500</pubDate>
 			<description>at Scotiabank Arena (Formerly Air Canada Centre)</description>
+		</item>
+		<item>
+			<title>March 31, 2020 &#8212; Shopping</title>
+			<link>http://justshows.com/toronto/2020/03/31/shopping/43610/</link>
+			<guid>http://justsho.ws/xne</guid>
+			<pubDate>Fri, 06 Dec 2019 18:56:05 -0500</pubDate>
+			<description>at The Monarch Tavern</description>
 		</item>
 		<item>
 			<title>April 1, 2020 &#8212; Sarah Harmer</title>
@@ -1865,6 +1767,13 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
+			<title>April 3, 2020 &#8212; Buddy Guy</title>
+			<link>http://justshows.com/toronto/2020/04/03/buddy-guy/43229/</link>
+			<guid>http://justsho.ws/xct</guid>
+			<pubDate>Fri, 08 Nov 2019 13:54:23 -0500</pubDate>
+			<description>with Tom Hambridge at Roy Thomson Hall</description>
+		</item>
+		<item>
 			<title>April 3, 2020 &#8212; Alan Doyle</title>
 			<link>http://justshows.com/toronto/2020/04/03/alan-doyle/42977/</link>
 			<guid>http://justsho.ws/x5t</guid>
@@ -1872,11 +1781,11 @@
 			<description>with Kelly Prescott at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>April 3, 2020 &#8212; Buddy Guy</title>
-			<link>http://justshows.com/toronto/2020/04/03/buddy-guy/43229/</link>
-			<guid>http://justsho.ws/xct</guid>
-			<pubDate>Fri, 08 Nov 2019 13:54:23 -0500</pubDate>
-			<description>with Tom Hambridge at Roy Thomson Hall</description>
+			<title>April 4, 2020 &#8212; Alan Doyle</title>
+			<link>http://justshows.com/toronto/2020/04/04/alan-doyle/42978/</link>
+			<guid>http://justsho.ws/x5u</guid>
+			<pubDate>Thu, 24 Oct 2019 11:37:24 -0400</pubDate>
+			<description>with Kelly Prescott at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>April 4, 2020 &#8212; Jenny Hval</title>
@@ -1886,11 +1795,11 @@
 			<description>at Longboat Hall</description>
 		</item>
 		<item>
-			<title>April 4, 2020 &#8212; Alan Doyle</title>
-			<link>http://justshows.com/toronto/2020/04/04/alan-doyle/42978/</link>
-			<guid>http://justsho.ws/x5u</guid>
-			<pubDate>Thu, 24 Oct 2019 11:37:24 -0400</pubDate>
-			<description>with Kelly Prescott at The Danforth Music Hall</description>
+			<title>April 5, 2020 &#8212; Lauren Ruth Ward</title>
+			<link>http://justshows.com/toronto/2020/04/05/lauren-ruth-ward/43611/</link>
+			<guid>http://justsho.ws/xnf</guid>
+			<pubDate>Fri, 06 Dec 2019 18:56:55 -0500</pubDate>
+			<description>at The Drake Hotel</description>
 		</item>
 		<item>
 			<title>April 5, 2020 &#8212; Ben Watt</title>
@@ -1928,18 +1837,18 @@
 			<description>at The Phoenix Concert Theatre</description>
 		</item>
 		<item>
-			<title>April 8, 2020 &#8212; Mayhem</title>
-			<link>http://justshows.com/toronto/2020/04/08/mayhem/43187/</link>
-			<guid>http://justsho.ws/xbn</guid>
-			<pubDate>Wed, 06 Nov 2019 12:18:32 -0500</pubDate>
-			<description>with Abbath at The Danforth Music Hall</description>
-		</item>
-		<item>
 			<title>April 8, 2020 &#8212; PowerGlove</title>
 			<link>http://justshows.com/toronto/2020/04/08/powerglove/41468/</link>
 			<guid>http://justsho.ws/vzw</guid>
 			<pubDate>Fri, 28 Jun 2019 18:19:52 -0400</pubDate>
 			<description>with Immortal Guardian at The Mod Club</description>
+		</item>
+		<item>
+			<title>April 8, 2020 &#8212; Mayhem</title>
+			<link>http://justshows.com/toronto/2020/04/08/mayhem/43187/</link>
+			<guid>http://justsho.ws/xbn</guid>
+			<pubDate>Wed, 06 Nov 2019 12:18:32 -0500</pubDate>
+			<description>with Abbath at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>April 9, 2020 &#8212; Lawrence</title>
@@ -2026,18 +1935,18 @@
 			<description>at Queen Elizabeth Theatre</description>
 		</item>
 		<item>
-			<title>April 18, 2020 &#8212; Watsky</title>
-			<link>http://justshows.com/toronto/2020/04/18/watsky/43447/</link>
-			<guid>http://justsho.ws/xiv</guid>
-			<pubDate>Fri, 22 Nov 2019 12:58:07 -0500</pubDate>
-			<description>at The Danforth Music Hall</description>
-		</item>
-		<item>
 			<title>April 18, 2020 &#8212; TONES AND I</title>
 			<link>http://justshows.com/toronto/2020/04/18/tones-and-i/42906/</link>
 			<guid>http://justsho.ws/x3u</guid>
 			<pubDate>Wed, 16 Oct 2019 15:30:23 -0400</pubDate>
 			<description>at The Velvet Underground</description>
+		</item>
+		<item>
+			<title>April 18, 2020 &#8212; Watsky</title>
+			<link>http://justshows.com/toronto/2020/04/18/watsky/43447/</link>
+			<guid>http://justsho.ws/xiv</guid>
+			<pubDate>Fri, 22 Nov 2019 12:58:07 -0500</pubDate>
+			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>April 18, 2020 &#8212; Stephen Day</title>
@@ -2075,6 +1984,13 @@
 			<description>at George Weston Recital Hall at the Toronto Centre for the Arts</description>
 		</item>
 		<item>
+			<title>April 24, 2020 &#8212; Dan Deacon</title>
+			<link>http://justshows.com/toronto/2020/04/24/dan-deacon/43103/</link>
+			<guid>http://justsho.ws/x9b</guid>
+			<pubDate>Wed, 30 Oct 2019 14:42:32 -0400</pubDate>
+			<description>at Lee’s Palace</description>
+		</item>
+		<item>
 			<title>April 24, 2020 &#8212; NF</title>
 			<link>http://justshows.com/toronto/2020/04/24/nf/42570/</link>
 			<guid>http://justsho.ws/wui</guid>
@@ -2089,18 +2005,11 @@
 			<description>with Faye Webster at The Danforth Music Hall</description>
 		</item>
 		<item>
-			<title>April 24, 2020 &#8212; Dan Deacon</title>
-			<link>http://justshows.com/toronto/2020/04/24/dan-deacon/43103/</link>
-			<guid>http://justsho.ws/x9b</guid>
-			<pubDate>Wed, 30 Oct 2019 14:42:32 -0400</pubDate>
-			<description>at Lee’s Palace</description>
-		</item>
-		<item>
-			<title>April 25, 2020 &#8212; Penny &amp; Sparrow</title>
-			<link>http://justshows.com/toronto/2020/04/25/penny-and-sparrow/43363/</link>
-			<guid>http://justsho.ws/xgj</guid>
-			<pubDate>Mon, 18 Nov 2019 17:15:54 -0500</pubDate>
-			<description>at The Drake Hotel</description>
+			<title>April 24, 2020 &#8212; Palehound</title>
+			<link>http://justshows.com/toronto/2020/04/24/palehound/43616/</link>
+			<guid>http://justsho.ws/xnk</guid>
+			<pubDate>Fri, 06 Dec 2019 19:02:44 -0500</pubDate>
+			<description>with Adult Mom at The Baby G</description>
 		</item>
 		<item>
 			<title>April 25, 2020 &#8212; Little Dragon</title>
@@ -2108,6 +2017,13 @@
 			<guid>http://justsho.ws/x5q</guid>
 			<pubDate>Thu, 24 Oct 2019 11:36:56 -0400</pubDate>
 			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>April 25, 2020 &#8212; Penny &amp; Sparrow</title>
+			<link>http://justshows.com/toronto/2020/04/25/penny-and-sparrow/43363/</link>
+			<guid>http://justsho.ws/xgj</guid>
+			<pubDate>Mon, 18 Nov 2019 17:15:54 -0500</pubDate>
+			<description>at The Drake Hotel</description>
 		</item>
 		<item>
 			<title>April 26, 2020 &#8212; Hannaford Street Silver Band</title>
@@ -2138,10 +2054,24 @@
 			<description>at The Horseshoe Tavern</description>
 		</item>
 		<item>
+			<title>April 29, 2020 &#8212; M. Ward</title>
+			<link>http://justshows.com/toronto/2020/04/29/m-ward/43612/</link>
+			<guid>http://justsho.ws/xng</guid>
+			<pubDate>Fri, 06 Dec 2019 18:58:01 -0500</pubDate>
+			<description>at The Great Hall</description>
+		</item>
+		<item>
 			<title>April 30, 2020 &#8212; Basia Bulat</title>
 			<link>http://justshows.com/toronto/2020/04/30/basia-bulat/43404/</link>
 			<guid>http://justsho.ws/xho</guid>
 			<pubDate>Wed, 20 Nov 2019 15:23:34 -0500</pubDate>
+			<description>at The Danforth Music Hall</description>
+		</item>
+		<item>
+			<title>May 1, 2020 &#8212; Highly Suspect</title>
+			<link>http://justshows.com/toronto/2020/05/01/highly-suspect/43097/</link>
+			<guid>http://justsho.ws/x95</guid>
+			<pubDate>Wed, 30 Oct 2019 14:38:13 -0400</pubDate>
 			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
@@ -2150,13 +2080,6 @@
 			<guid>http://justsho.ws/x97</guid>
 			<pubDate>Wed, 30 Oct 2019 14:38:26 -0400</pubDate>
 			<description>at Rebel</description>
-		</item>
-		<item>
-			<title>May 1, 2020 &#8212; Highly Suspect</title>
-			<link>http://justshows.com/toronto/2020/05/01/highly-suspect/43097/</link>
-			<guid>http://justsho.ws/x95</guid>
-			<pubDate>Wed, 30 Oct 2019 14:38:13 -0400</pubDate>
-			<description>at The Danforth Music Hall</description>
 		</item>
 		<item>
 			<title>May 2, 2020 &#8212; Ratboys</title>
@@ -2318,6 +2241,13 @@
 			<guid>http://justsho.ws/xlk</guid>
 			<pubDate>Tue, 03 Dec 2019 12:43:36 -0500</pubDate>
 			<description>with Scott Helman at Budweiser Stage</description>
+		</item>
+		<item>
+			<title>June 28, 2020 &#8212; Maroon 5</title>
+			<link>http://justshows.com/toronto/2020/06/28/maroon-5/43599/</link>
+			<guid>http://justsho.ws/xn3</guid>
+			<pubDate>Fri, 06 Dec 2019 18:46:58 -0500</pubDate>
+			<description>with Meghan Trainor at Budweiser Stage</description>
 		</item>
 		<item>
 			<title>July 2, 2020 &#8212; Lauren Daigle</title>
