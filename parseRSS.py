@@ -2,6 +2,8 @@ import feedparser
 from datetime import datetime
 import requests
 import os
+import json
+import redis
 
 """Parses the JustShows RSS feed."""
 
@@ -222,14 +224,16 @@ def refresh_rss():
         if new_updated > last_updated and (0 < len(new_feed.entries) < 800):
             try:
                 os.rename('justShowsRss.txt', 'justShowsRss.old')
-            except WindowsError:
-                os.remove('justShowsRss.old')
-                os.rename('justShowsRss.txt', 'justShowsRss.old')
+            except OSError as e:
+                # os.remove('justShowsRss.old')
+                # os.rename('justShowsRss.txt', 'justShowsRss.old')
+                print("error1: " + str(e))
             try:
                 os.rename('rss_request.txt', 'justShowsRss.txt')
-            except WindowsError:
-                os.remove('justShowsRss.txt')
-                os.rename('rss_request.txt', 'justShowsRss.txt')
+            except OSError as e:
+                # os.remove('justShowsRss.txt')
+                # os.rename('rss_request.txt', 'justShowsRss.txt')
+                print("error2: " + str(e))
             return True
         else:
             return False
@@ -286,3 +290,21 @@ def load_data(rss="justShowsRss.txt"):
             band_dict = add_show(show, band, band_dict)
         show_array = sorted(show_array, key=lambda sa: datetime.strptime(sa['date'], "%B %d, %Y"))
     return band_dict, show_array
+
+
+# REDIS TESTER
+r = redis.Redis(db=1)
+
+
+def test_redis():
+    """Try loading band_dict into redis"""
+    band_dict, _ = load_data()
+    with r.pipeline() as pipe:
+        for band_name, shows in band_dict.items():
+            pipe.set(band_name, json.dumps(shows))
+        pipe.set("lastBuildDate", str(datetime.now()))
+        pipe.execute()
+
+    r.bgsave()
+    # HELPERS
+    # result = json.loads(r.get('band_name').decode('utf-8'))
