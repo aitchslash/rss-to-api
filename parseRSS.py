@@ -1,5 +1,5 @@
 import feedparser
-from datetime import datetime
+from datetime import datetime, timedelta
 import requests
 import os
 import json
@@ -203,9 +203,13 @@ def refresh_rss():
     """Checks if stored rss.txt is less than a day old.  Updates if necessary."""
     rss = "justShowsRss.txt"
     r = feedparser.parse(rss)
-    last_updated = r.feed.updated
-    # convert to datetime
-    last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
+    if r and "updated" in r.feed.keys():
+        last_updated = r.feed.updated
+        # convert to datetime
+        last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
+    else:
+        last_updated = datetime.now() - timedelta(days=365)
+    
     # get rss from just_shows
     justShowsRss = "http://feeds.justshows.net/rss/toronto/"
 
@@ -296,10 +300,12 @@ def load_data(rss="justShowsRss.txt"):
 # r = redis.Redis(db=1)
 if os.environ.get("REDISCLOUD_URL"):
     redis_url = os.environ.get("REDISCLOUD_URL")
+    db = redis.from_url(redis_url)
 else:
-    redis_url = "localhost"
+    # redis_url = "localhost"
+    db = redis.Redis(db=1)
 
-db = redis.from_url(redis_url)
+
 
 
 def test_redis():
