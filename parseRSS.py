@@ -224,38 +224,16 @@ def refresh_rss():
         if new_updated > last_updated and (0 < len(new_feed.entries) < 800):
             try:
                 os.rename('justShowsRss.txt', 'justShowsRss.old')
-<<<<<<< HEAD
             except OSError as e:
                 # os.remove('justShowsRss.old')
                 # os.rename('justShowsRss.txt', 'justShowsRss.old')
                 print("Error1: " + str(e))
-||||||| 177024b
-            except WindowsError:
-                os.remove('justShowsRss.old')
-                os.rename('justShowsRss.txt', 'justShowsRss.old')
-=======
-            except OSError as e:
-                # os.remove('justShowsRss.old')
-                # os.rename('justShowsRss.txt', 'justShowsRss.old')
-                print("error1: " + str(e))
->>>>>>> try-redis
             try:
                 os.rename('rss_request.txt', 'justShowsRss.txt')
-<<<<<<< HEAD
             except OSError as e:
                 # os.remove('justShowsRss.txt')
                 # os.rename('rss_request.txt', 'justShowsRss.txt')
                 print("Error2: " + str(e))
-||||||| 177024b
-            except WindowsError:
-                os.remove('justShowsRss.txt')
-                os.rename('rss_request.txt', 'justShowsRss.txt')
-=======
-            except OSError as e:
-                # os.remove('justShowsRss.txt')
-                # os.rename('rss_request.txt', 'justShowsRss.txt')
-                print("error2: " + str(e))
->>>>>>> try-redis
             return True
         else:
             return False
