@@ -1,7 +1,9 @@
 import feedparser
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import requests
 import os
+import json
+import redis
 
 """Parses the JustShows RSS feed."""
 
@@ -201,9 +203,13 @@ def refresh_rss():
     """Checks if stored rss.txt is less than a day old.  Updates if necessary."""
     rss = "justShowsRss.txt"
     r = feedparser.parse(rss)
-    last_updated = r.feed.updated
-    # convert to datetime
-    last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
+    if r and "updated" in r.feed.keys():
+        last_updated = r.feed.updated
+        # convert to datetime
+        last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
+    else:
+        last_updated = datetime.now(timezone.utc) - timedelta(days=365)
+    
     # get rss from just_shows
     justShowsRss = "http://feeds.justshows.net/rss/toronto/"
 
@@ -222,14 +228,16 @@ def refresh_rss():
         if new_updated > last_updated and (0 < len(new_feed.entries) < 800):
             try:
                 os.rename('justShowsRss.txt', 'justShowsRss.old')
-            except WindowsError:
-                os.remove('justShowsRss.old')
-                os.rename('justShowsRss.txt', 'justShowsRss.old')
+            except OSError as e:
+                # os.remove('justShowsRss.old')
+                # os.rename('justShowsRss.txt', 'justShowsRss.old')
+                print("Error1: " + str(e))
             try:
                 os.rename('rss_request.txt', 'justShowsRss.txt')
-            except WindowsError:
-                os.remove('justShowsRss.txt')
-                os.rename('rss_request.txt', 'justShowsRss.txt')
+            except OSError as e:
+                # os.remove('justShowsRss.txt')
+                # os.rename('rss_request.txt', 'justShowsRss.txt')
+                print("Error2: " + str(e))
             return True
         else:
             return False
@@ -286,3 +294,29 @@ def load_data(rss="justShowsRss.txt"):
             band_dict = add_show(show, band, band_dict)
         show_array = sorted(show_array, key=lambda sa: datetime.strptime(sa['date'], "%B %d, %Y"))
     return band_dict, show_array
+
+
+# REDIS TESTER
+# r = redis.Redis(db=1)
+if os.environ.get("REDISCLOUD_URL"):
+    redis_url = os.environ.get("REDISCLOUD_URL")
+    db = redis.from_url(redis_url)
+else:
+    # redis_url = "localhost"
+    db = redis.Redis(db=1)
+
+
+
+
+def test_redis():
+    """Try loading band_dict into redis"""
+    band_dict, _ = load_data()
+    with db.pipeline() as pipe:
+        for band_name, shows in band_dict.items():
+            pipe.set(band_name, json.dumps(shows))
+        pipe.set("lastBuildDate", str(datetime.now()))
+        pipe.execute()
+
+    # db.bgsave() # not allowed on heroku
+    # HELPERS
+    # result = json.loads(r.get('band_name').decode('utf-8'))
