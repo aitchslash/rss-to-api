@@ -1,34 +1,57 @@
 from flask import Flask, jsonify, request
-from datetime import datetime
-from parseRSS import load_data
+from datetime import datetime, timedelta
+from parseRSS import load_data, test_redis
 import shutil
+import json
+import redis
+import os
 
 app = Flask(__name__)
 
 # memcache_dict = {}  # setup memcache here
 
-password = "secret"  # this is obviously unsecure
+password = "secret"  # this is obviously insecure
 
 # Get Data:
 band_dict, show_array = load_data()
+
+# r1 = redis.Redis(db=1)
+if os.environ.get("REDISCLOUD_URL"):
+    redis_url = os.environ.get("REDISCLOUD_URL")
+else:
+    redis_url = "localhost"
+
+db = redis.from_url(redis_url)
+
+lastBuildDate = db.get("lastBuildDate")
+if lastBuildDate:
+    lastBuildDate = datetime.strptime(
+        lastBuildDate.decode("utf-8"), '%Y-%m-%d %H:%M:%S.%f')
+    expiry_time = datetime.now() - timedelta(hours=36)
+if not lastBuildDate or expiry_time > lastBuildDate:
+    print("NEED TO REFRESH REDIS TAKE 2")
+    test_redis()
 
 
 @app.route('/api/ping', methods=['GET'])
 def ping_response():
     """Simple ping response."""
-    return jsonify({"success": True}), 200
+    return jsonify({"lastBuildDate": db.get("lastBuildDate").decode("utf-8")}), 200
 
 
 @app.route('/api/band/<bandname>', methods=['GET'])
 def get_band_showlistings(bandname):
     """Get shows for one band."""
-    if bandname.lower() not in band_dict.keys():
+    result = db.get(bandname.lower())
+    # result = json.loads(r1.get(bandname.lower()).decode("utf-8"))
+    if not result:
         return jsonify({'error': 'Unknown band name'}), 400
     else:
         # check if request is in memcache
         # check if results are sorted
         # return jsonified response
-        return jsonify({bandname: band_dict[bandname.lower()]}), 200
+        result = json.loads(result.decode("utf-8"))
+        return jsonify({bandname: result}), 200
 
 
 @app.route('/api/bands', methods=['POST'])
@@ -37,8 +60,10 @@ def get_shows_from_list():
     """i.e. if a band is playing more than once len(list) > 1"""
     band_json = request.json
     band_list = band_json['bands']
-    show_list = [band_dict[x] for x in band_list if x in band_dict.keys()]
-    return jsonify(show_list)
+    show_list = db.mget(band_list)
+    if show_list:
+        show_list = [show.decode("utf-8") for show in show_list if show]
+    return jsonify({"shows": show_list})
 
 
 @app.route('/api/venue/<venue>', methods=['GET'])
@@ -104,5 +129,5 @@ def revert_rss():
 
 
 if __name__ == '__main__':
-    app.debug = False
+    app.debug = True
     app.run(host='0.0.0.0', port=8088)
