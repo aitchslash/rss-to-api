@@ -1,5 +1,5 @@
 import feedparser
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import requests
 import os
 import json
@@ -208,7 +208,7 @@ def refresh_rss():
         # convert to datetime
         last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
     else:
-        last_updated = datetime.now() - timedelta(days=365)
+        last_updated = datetime.now(timezone.utc) - timedelta(days=365)
     
     # get rss from just_shows
     justShowsRss = "http://feeds.justshows.net/rss/toronto/"
