@@ -4,6 +4,7 @@ from parseRSS import load_data, test_redis
 import shutil
 import json
 import redis
+import os
 
 app = Flask(__name__)
 
@@ -14,10 +15,18 @@ password = "secret"  # this is obviously insecure
 # Get Data:
 band_dict, show_array = load_data()
 
-r1 = redis.Redis(db=1)
-lastBuildDate = r1.get("lastBuildDate")
+# r1 = redis.Redis(db=1)
+if os.environ.get("REDISCLOUD_URL"):
+    redis_url = os.environ.get("REDISCLOUD_URL")
+else:
+    redis_url = "localhost"
+
+db = redis.from_url(redis_url)
+
+lastBuildDate = db.get("lastBuildDate")
 if lastBuildDate:
-    lastBuildDate = datetime.strptime(lastBuildDate.decode("utf-8"), '%Y-%m-%d %H:%M:%S.%f')
+    lastBuildDate = datetime.strptime(
+        lastBuildDate.decode("utf-8"), '%Y-%m-%d %H:%M:%S.%f')
     expiry_time = datetime.now() - timedelta(hours=36)
 if not lastBuildDate or expiry_time > lastBuildDate:
     print("NEED TO REFRESH REDIS TAKE 2")
@@ -27,13 +36,13 @@ if not lastBuildDate or expiry_time > lastBuildDate:
 @app.route('/api/ping', methods=['GET'])
 def ping_response():
     """Simple ping response."""
-    return jsonify({"lastBuildDate": r1.get("lastBuildDate").decode("utf-8")}), 200
+    return jsonify({"lastBuildDate": db.get("lastBuildDate").decode("utf-8")}), 200
 
 
 @app.route('/api/band/<bandname>', methods=['GET'])
 def get_band_showlistings(bandname):
     """Get shows for one band."""
-    result = r1.get(bandname.lower())
+    result = db.get(bandname.lower())
     # result = json.loads(r1.get(bandname.lower()).decode("utf-8"))
     if not result:
         return jsonify({'error': 'Unknown band name'}), 400
@@ -51,7 +60,7 @@ def get_shows_from_list():
     """i.e. if a band is playing more than once len(list) > 1"""
     band_json = request.json
     band_list = band_json['bands']
-    show_list = r1.mget(band_list)
+    show_list = db.mget(band_list)
     if show_list:
         show_list = [show.decode("utf-8") for show in show_list if show]
     return jsonify({"shows": show_list})

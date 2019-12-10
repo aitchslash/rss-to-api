@@ -293,18 +293,24 @@ def load_data(rss="justShowsRss.txt"):
 
 
 # REDIS TESTER
-r = redis.Redis(db=1)
+# r = redis.Redis(db=1)
+if os.environ.get("REDISCLOUD_URL"):
+    redis_url = os.environ.get("REDISCLOUD_URL")
+else:
+    redis_url = "localhost"
+
+db = redis.from_url(redis_url)
 
 
 def test_redis():
     """Try loading band_dict into redis"""
     band_dict, _ = load_data()
-    with r.pipeline() as pipe:
+    with db.pipeline() as pipe:
         for band_name, shows in band_dict.items():
             pipe.set(band_name, json.dumps(shows))
         pipe.set("lastBuildDate", str(datetime.now()))
         pipe.execute()
 
-    r.bgsave()
+    db.bgsave()
     # HELPERS
     # result = json.loads(r.get('band_name').decode('utf-8'))
