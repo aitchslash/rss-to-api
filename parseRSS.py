@@ -317,6 +317,6 @@ def test_redis():
         pipe.set("lastBuildDate", str(datetime.now()))
         pipe.execute()
 
-    db.bgsave()
+    # db.bgsave() # not allowed on heroku
     # HELPERS
     # result = json.loads(r.get('band_name').decode('utf-8'))
