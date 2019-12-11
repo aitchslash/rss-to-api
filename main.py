@@ -68,7 +68,8 @@ def get_shows_from_list():
 
 @app.route('/api/venue/<venue>', methods=['GET'])
 def get_shows_by_venue(venue):
-    venue_shows = db.lrange(venue, 0, -1)
+    limit = int(request.args.get('limit', 10))
+    venue_shows = db.lrange(venue, 0, limit)
     if not venue_shows:
         return jsonify({"error": "Unkown venue: " + venue}), 400
     else:
