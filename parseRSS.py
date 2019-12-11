@@ -303,18 +303,24 @@ if os.environ.get("REDISCLOUD_URL"):
     db = redis.from_url(redis_url)
 else:
     # redis_url = "localhost"
-    db = redis.Redis(db=1)
-
-
+    db = redis.Redis()
 
 
 def test_redis():
     """Try loading band_dict into redis"""
-    band_dict, _ = load_data()
+    band_dict, show_array = load_data()
     with db.pipeline() as pipe:
         for band_name, shows in band_dict.items():
             pipe.set(band_name, json.dumps(shows))
         pipe.set("lastBuildDate", str(datetime.now()))
+        for show in show_array:
+            venue = show['venue']
+            datekey = "date:"+show['date']
+            date = show['date']
+            show = json.dumps(show)
+            mapping = {show: date}
+            pipe.hset(datekey, show, date)  # db.hgetall(date:December 14, 2019)
+            pipe.rpush(venue, show)  # get shows e.g. : db.lrange("Lee's Palace", 0, 4)
         pipe.execute()
 
     # db.bgsave() # not allowed on heroku
