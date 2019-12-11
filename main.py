@@ -18,10 +18,10 @@ band_dict, show_array = load_data()
 # r1 = redis.Redis(db=1)
 if os.environ.get("REDISCLOUD_URL"):
     redis_url = os.environ.get("REDISCLOUD_URL")
+    db = redis.from_url(redis_url)
 else:
-    redis_url = "localhost"
+    db = redis.Redis()
 
-db = redis.from_url(redis_url)
 
 lastBuildDate = db.get("lastBuildDate")
 if lastBuildDate:
