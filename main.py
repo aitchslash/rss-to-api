@@ -68,12 +68,11 @@ def get_shows_from_list():
 
 @app.route('/api/venue/<venue>', methods=['GET'])
 def get_shows_by_venue(venue):
-    # filter show_array by venue
-    shows = list(
-        filter(lambda x: x['venue'].lower() == venue.lower(), show_array))
-    if not shows:
+    venue_shows = db.lrange(venue, 0, -1)
+    if not venue_shows:
         return jsonify({"error": "Unkown venue: " + venue}), 400
     else:
+        shows = [json.loads(show.decode("utf-8")) for show in venue_shows if show]
         return jsonify({venue: shows})
 
 
