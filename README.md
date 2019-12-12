@@ -4,7 +4,7 @@ rss-to-api is a Flask API created from the Toronto RSS feed of justshows.com Cur
 
 ## Installation
 
-The main branch requires Redis. If Redis isn't your thing please checkout the no-redis branch
+The master branch requires Redis. If Redis isn't your thing please checkout the no-redis branch
 
 ```bash
 pip install -r requirements.txt
@@ -18,7 +18,7 @@ To run locally on port 8088
 python3 main.py
 ```
 
-Currently configured for deployment on Heroku. Be sure to disable DEBUG and change password. Your mileage may vary.
+Currently configured for deployment on Heroku. Be sure to disable/enable DEBUG and change password. Your mileage may vary.
 
 ## Endpoints
 

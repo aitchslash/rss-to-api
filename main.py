@@ -63,7 +63,8 @@ def get_shows_by_venue(venue):
     if not venue_shows:
         return jsonify({"error": "Unkown venue: " + venue}), 400
     else:
-        shows = [json.loads(show.decode("utf-8")) for show in venue_shows if show]
+        shows = [json.loads(show.decode("utf-8"))
+                 for show in venue_shows if show]
         return jsonify({venue: shows})
 
 
@@ -88,7 +89,8 @@ def get_latest_added():
     if not latest_shows_added:
         return jsonify({"error": "something wrong with latest"}), 400
     else:
-        shows = [json.loads(show.decode("utf-8")) for show in latest_shows_added if show]
+        shows = [json.loads(show.decode("utf-8"))
+                 for show in latest_shows_added if show]
         return jsonify({"latest added": shows})
 
 
@@ -105,5 +107,5 @@ def update_rss():
 
 
 if __name__ == '__main__':
-    app.debug = True
+    app.debug = False
     app.run(host='0.0.0.0', port=8088)
