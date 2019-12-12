@@ -93,12 +93,15 @@ def get_shows_by_date(date):
 
 @app.route('/api/latest', methods=['GET'])
 def get_latest_added():
-    limit = int(request.args.get('limit', 10))
+    limit = int(request.args.get('limit', 20))
     if not (0 < limit < len(show_array)):
         return jsonify({"error": "Bad limit request"})
-    shows_by_added = sorted(
-        show_array, key=lambda sa: sa['date_listed'], reverse=True)
-    return jsonify({'latest': shows_by_added[:limit]})
+    latest_shows_added = db.lrange("dateListed", 0, limit)
+    if not latest_shows_added:
+        return jsonify({"error": "something wrong with latest"}), 400
+    else:
+        shows = [json.loads(show.decode("utf-8")) for show in latest_shows_added if show]
+        return jsonify({"latest added": shows})
 
 
 """This could be vastly improved.  For use w/o db.  PUT would be better."""
