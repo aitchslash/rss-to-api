@@ -5,9 +5,18 @@ import os
 import json
 import redis
 
-"""Parses the JustShows RSS feed."""
+"""Parses the JustShows RSS feed and populates redis db."""
 
-"""Will need to check if 'updated' ever comes up."""
+# The url for the rss feed
+justShowsRss = "http://feeds.justshows.net/rss/toronto/"
+
+
+"""Use remote db if available (heroku), else use locally."""
+if os.environ.get("REDISCLOUD_URL"):
+    redis_url = os.environ.get("REDISCLOUD_URL")
+    db = redis.from_url(redis_url)
+else:
+    db = redis.Redis()
 
 
 class Show(object):
@@ -199,77 +208,12 @@ def clean_ascii(target):
     return clean_target
 
 
-def refresh_rss():
-    """Checks if stored rss.txt is less than a day old.  Updates if necessary."""
-    rss = "justShowsRss.txt"
-    r = feedparser.parse(rss)
-    if r and "updated" in r.feed.keys():
-        last_updated = r.feed.updated
-        # convert to datetime
-        last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
-    else:
-        last_updated = datetime.now(timezone.utc) - timedelta(days=365)
-
-    # get rss from just_shows
-    justShowsRss = "http://feeds.justshows.net/rss/toronto/"
-
-    response = requests.get(justShowsRss)
-    if not response.ok:
-        return False
-    else:
-        with open("rss_request.txt", 'w', encoding="utf-8") as rr:
-            for line in response.text:
-                rr.write(line)
-
-        new_feed = feedparser.parse("rss_request.txt")
-        new_updated = new_feed.feed.updated
-        new_updated = datetime.strptime(new_updated, "%a, %d %b %Y %X %z")
-        # if new_date is != and newer AND entries are within expected range
-        if new_updated > last_updated and (0 < len(new_feed.entries) < 800):
-            try:
-                os.rename('justShowsRss.txt', 'justShowsRss.old')
-            except OSError as e:
-                # os.remove('justShowsRss.old')
-                # os.rename('justShowsRss.txt', 'justShowsRss.old')
-                print("Error1: " + str(e))
-            try:
-                os.rename('rss_request.txt', 'justShowsRss.txt')
-            except OSError as e:
-                # os.remove('justShowsRss.txt')
-                # os.rename('rss_request.txt', 'justShowsRss.txt')
-                print("Error2: " + str(e))
-            return True
-        else:
-            return False
-
-
-def load_data(rss="justShowsRss.txt"):
+def load_data(rss=justShowsRss):
     """Return an array of Shows and a dict mapping bandnames to array of their shows."""
     # if more cities than TO have function take a feed
     band_dict = {}
     show_array = []
-    # coheads = [] # unused for now
-    # justShowRss = "http://feeds.justshows.net/rss/toronto/"
-    # justShowRss = "rss26102019.txt"  # text file for experimenting.
-
-    if refresh_rss():
-        print("RSS updated!")
-
     r = feedparser.parse(rss)  # this might be redundant, could use output from refresh
-    # print(r.feed.title)
-    # print("There are " + str(len(r.entries)) + " listings.")
-
-    # check if feed is more than a day old
-    # last_updated = r.feed.updated
-    # if it's too old
-    #   request new rss
-    #   check if it's new
-    #   if so
-    #       backup the old rss
-    #       write new feed to
-    #       parse the new feed.
-    #       make sure its long enough.
-
     for listing in r.entries:
         date, headliner = listing['title'].split('—')
         date = date.strip()  # could change the split to include
@@ -296,37 +240,27 @@ def load_data(rss="justShowsRss.txt"):
     return band_dict, show_array
 
 
-# REDIS TESTER
-# r = redis.Redis(db=1)
-if os.environ.get("REDISCLOUD_URL"):
-    redis_url = os.environ.get("REDISCLOUD_URL")
-    db = redis.from_url(redis_url)
-else:
-    # redis_url = "localhost"
-    db = redis.Redis()
-
-
-def test_redis():
-    """Try loading band_dict into redis"""
-    band_dict, show_array = load_data()
-    shows_by_listed = sorted(show_array, key=lambda sa: sa['date_listed'])
-    with db.pipeline() as pipe:
-        for band_name, shows in band_dict.items():
-            pipe.set(band_name, json.dumps(shows))
-        pipe.set("lastBuildDate", str(datetime.now()))
-        for show in show_array:
-            venue = show['venue']
-            date = show['date']
-            date_to_int = int(datetime.strptime(date, "%B %d, %Y").strftime("%d%m%y"))
-            datekey = "date:" + str(date_to_int)
-            show = json.dumps(show)
-            pipe.hset(datekey, show, date_to_int)  # db.hgetall("date:141219")  # messy, refactor
-            pipe.rpush(venue, show)  # get shows e.g. : db.lrange("Lee's Palace", 0, 4)
-        for show in shows_by_listed:
-            show = json.dumps(show)
-            pipe.lpush("dateListed", show)
-        pipe.execute()
-
-    # db.bgsave() # not allowed on heroku
-    # HELPERS
-    # result = json.loads(r.get('band_name').decode('utf-8'))
+def data_loader():
+    """Load band_dict into redis"""
+    band_dict, show_array = load_data(justShowsRss)
+    if band_dict and show_array:
+        shows_by_listed = sorted(show_array, key=lambda sa: sa['date_listed'])
+        db.flushdb()
+        with db.pipeline() as pipe:
+            for band_name, shows in band_dict.items():
+                pipe.set(band_name, json.dumps(shows))
+            pipe.set("lastBuildDate", str(datetime.now()))
+            for show in show_array:
+                venue = show['venue']
+                date = show['date']
+                date_to_int = int(datetime.strptime(date, "%B %d, %Y").strftime("%d%m%y"))
+                datekey = "date:" + str(date_to_int)
+                show = json.dumps(show)
+                pipe.hset(datekey, show, date_to_int)  # db.hgetall("date:141219") # messy, refactor
+                pipe.rpush(venue, show)  # get shows e.g. : db.lrange("Lee's Palace", 0, 4)
+            for show in shows_by_listed:
+                show = json.dumps(show)
+                pipe.lpush("dateListed", show)
+            pipe.execute()
+    else:
+        return
