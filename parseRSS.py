@@ -209,7 +209,7 @@ def refresh_rss():
         last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
     else:
         last_updated = datetime.now(timezone.utc) - timedelta(days=365)
-    
+
     # get rss from just_shows
     justShowsRss = "http://feeds.justshows.net/rss/toronto/"
 
@@ -303,18 +303,28 @@ if os.environ.get("REDISCLOUD_URL"):
     db = redis.from_url(redis_url)
 else:
     # redis_url = "localhost"
-    db = redis.Redis(db=1)
-
-
+    db = redis.Redis()
 
 
 def test_redis():
     """Try loading band_dict into redis"""
-    band_dict, _ = load_data()
+    band_dict, show_array = load_data()
+    shows_by_listed = sorted(show_array, key=lambda sa: sa['date_listed'])
     with db.pipeline() as pipe:
         for band_name, shows in band_dict.items():
             pipe.set(band_name, json.dumps(shows))
         pipe.set("lastBuildDate", str(datetime.now()))
+        for show in show_array:
+            venue = show['venue']
+            date = show['date']
+            date_to_int = int(datetime.strptime(date, "%B %d, %Y").strftime("%d%m%y"))
+            datekey = "date:" + str(date_to_int)
+            show = json.dumps(show)
+            pipe.hset(datekey, show, date_to_int)  # db.hgetall("date:141219")  # messy, refactor
+            pipe.rpush(venue, show)  # get shows e.g. : db.lrange("Lee's Palace", 0, 4)
+        for show in shows_by_listed:
+            show = json.dumps(show)
+            pipe.lpush("dateListed", show)
         pipe.execute()
 
     # db.bgsave() # not allowed on heroku

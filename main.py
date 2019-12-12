@@ -18,10 +18,10 @@ band_dict, show_array = load_data()
 # r1 = redis.Redis(db=1)
 if os.environ.get("REDISCLOUD_URL"):
     redis_url = os.environ.get("REDISCLOUD_URL")
+    db = redis.from_url(redis_url)
 else:
-    redis_url = "localhost"
+    db = redis.Redis()
 
-db = redis.from_url(redis_url)
 
 lastBuildDate = db.get("lastBuildDate")
 if lastBuildDate:
@@ -68,12 +68,12 @@ def get_shows_from_list():
 
 @app.route('/api/venue/<venue>', methods=['GET'])
 def get_shows_by_venue(venue):
-    # filter show_array by venue
-    shows = list(
-        filter(lambda x: x['venue'].lower() == venue.lower(), show_array))
-    if not shows:
+    limit = int(request.args.get('limit', 10))
+    venue_shows = db.lrange(venue, 0, limit)
+    if not venue_shows:
         return jsonify({"error": "Unkown venue: " + venue}), 400
     else:
+        shows = [json.loads(show.decode("utf-8")) for show in venue_shows if show]
         return jsonify({venue: shows})
 
 
@@ -83,23 +83,25 @@ def get_shows_by_date(date):
     if not (0 < date < 311299):
         return jsonify({"error": "Bad date. Try format: ddmmyy"})
     else:
-        pydate = datetime.strptime(str(date), "%d%m%y")
-    shows = list(filter(lambda x: datetime.strptime(
-        x['date'], "%B %d, %Y") == pydate, show_array))
+        shows = db.hgetall("date:" + str(date))
     if not shows:
         return jsonify({"error": 'No results or bad date try: ddmmyy'})
     else:
-        return jsonify({date: shows})
+        show_array = [json.loads(key.decode("utf-8")) for key in shows.keys()]
+        return jsonify({date: show_array})
 
 
 @app.route('/api/latest', methods=['GET'])
 def get_latest_added():
-    limit = int(request.args.get('limit', 10))
+    limit = int(request.args.get('limit', 20))
     if not (0 < limit < len(show_array)):
         return jsonify({"error": "Bad limit request"})
-    shows_by_added = sorted(
-        show_array, key=lambda sa: sa['date_listed'], reverse=True)
-    return jsonify({'latest': shows_by_added[:limit]})
+    latest_shows_added = db.lrange("dateListed", 0, limit)
+    if not latest_shows_added:
+        return jsonify({"error": "something wrong with latest"}), 400
+    else:
+        shows = [json.loads(show.decode("utf-8")) for show in latest_shows_added if show]
+        return jsonify({"latest added": shows})
 
 
 """This could be vastly improved.  For use w/o db.  PUT would be better."""
