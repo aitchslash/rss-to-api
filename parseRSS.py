@@ -209,7 +209,7 @@ def refresh_rss():
         last_updated = datetime.strptime(last_updated, "%a, %d %b %Y %X %z")
     else:
         last_updated = datetime.now(timezone.utc) - timedelta(days=365)
-    
+
     # get rss from just_shows
     justShowsRss = "http://feeds.justshows.net/rss/toronto/"
 
@@ -315,11 +315,11 @@ def test_redis():
         pipe.set("lastBuildDate", str(datetime.now()))
         for show in show_array:
             venue = show['venue']
-            datekey = "date:"+show['date']
             date = show['date']
+            date_to_int = int(datetime.strptime(date, "%B %d, %Y").strftime("%d%m%y"))
+            datekey = "date:" + str(date_to_int)
             show = json.dumps(show)
-            mapping = {show: date}
-            pipe.hset(datekey, show, date)  # db.hgetall(date:December 14, 2019)
+            pipe.hset(datekey, show, date_to_int)  # db.hgetall("date:141219")
             pipe.rpush(venue, show)  # get shows e.g. : db.lrange("Lee's Palace", 0, 4)
         pipe.execute()
 

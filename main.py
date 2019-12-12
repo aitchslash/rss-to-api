@@ -83,13 +83,12 @@ def get_shows_by_date(date):
     if not (0 < date < 311299):
         return jsonify({"error": "Bad date. Try format: ddmmyy"})
     else:
-        pydate = datetime.strptime(str(date), "%d%m%y")
-    shows = list(filter(lambda x: datetime.strptime(
-        x['date'], "%B %d, %Y") == pydate, show_array))
+        shows = db.hgetall("date:" + str(date))
     if not shows:
         return jsonify({"error": 'No results or bad date try: ddmmyy'})
     else:
-        return jsonify({date: shows})
+        show_array = [json.loads(key.decode("utf-8")) for key in shows.keys()]
+        return jsonify({date: show_array})
 
 
 @app.route('/api/latest', methods=['GET'])
