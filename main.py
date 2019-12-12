@@ -1,21 +1,15 @@
 from flask import Flask, jsonify, request
 from datetime import datetime, timedelta
-from parseRSS import load_data, test_redis
-import shutil
+from parseRSS import data_loader
 import json
 import redis
 import os
 
 app = Flask(__name__)
 
-# memcache_dict = {}  # setup memcache here
-
 password = "secret"  # this is obviously insecure
 
-# Get Data:
-band_dict, show_array = load_data()
-
-# r1 = redis.Redis(db=1)
+# Use remote (heroku) db if available, else use locally
 if os.environ.get("REDISCLOUD_URL"):
     redis_url = os.environ.get("REDISCLOUD_URL")
     db = redis.from_url(redis_url)
@@ -30,7 +24,7 @@ if lastBuildDate:
     expiry_time = datetime.now() - timedelta(hours=36)
 if not lastBuildDate or expiry_time > lastBuildDate:
     print("NEED TO REFRESH REDIS TAKE 2")
-    test_redis()
+    data_loader()
 
 
 @app.route('/api/ping', methods=['GET'])
@@ -43,13 +37,9 @@ def ping_response():
 def get_band_showlistings(bandname):
     """Get shows for one band."""
     result = db.get(bandname.lower())
-    # result = json.loads(r1.get(bandname.lower()).decode("utf-8"))
     if not result:
         return jsonify({'error': 'Unknown band name'}), 400
     else:
-        # check if request is in memcache
-        # check if results are sorted
-        # return jsonified response
         result = json.loads(result.decode("utf-8"))
         return jsonify({bandname: result}), 200
 
@@ -94,7 +84,7 @@ def get_shows_by_date(date):
 @app.route('/api/latest', methods=['GET'])
 def get_latest_added():
     limit = int(request.args.get('limit', 20))
-    latest_shows_added = db.lrange("dateListed", 0, limit)
+    latest_shows_added = db.lrange("dateListed", 0, limit - 1)
     if not latest_shows_added:
         return jsonify({"error": "something wrong with latest"}), 400
     else:
@@ -102,28 +92,14 @@ def get_latest_added():
         return jsonify({"latest added": shows})
 
 
-"""This could be vastly improved.  For use w/o db.  PUT would be better."""
+"""This could be improved. PUT would be better."""
 @app.route('/api/update', methods=['GET'])
 def update_rss():
     pw = request.args.get("pw", "")
     if pw == password:
-        global band_dict, show_array
-        band_dict, show_array = load_data()
+        data_loader()
         return jsonify({"success":
                         "checked for new data. Please test and revert if unexpected results"})
-    else:
-        return jsonify({"error": "Password required."})
-
-
-"""This could be vastly improved.  For use w/o db.  PUT would be better."""
-@app.route('/api/revert', methods=['GET'])
-def revert_rss():
-    pw = request.args.get("pw", "")
-    if pw == password:
-        shutil.copyfile("justShowsRss.old", "justShowsRss.txt")
-        global band_dict, show_array
-        band_dict, show_array = load_data()
-        return jsonify({"success": "Data reverted to old version."})
     else:
         return jsonify({"error": "Password required."})
 
