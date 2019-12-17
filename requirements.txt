@@ -3,3 +3,4 @@ flask==1.0.2
 requests>=2.20.0
 feedparser==5.2.1
 redis==3.3.11
+flask-cors==3.0.8
