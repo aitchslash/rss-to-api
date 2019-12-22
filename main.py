@@ -4,8 +4,11 @@ from parseRSS import data_loader
 import json
 import redis
 import os
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 password = "secret"  # this is obviously insecure
 
@@ -28,6 +31,7 @@ if not lastBuildDate or expiry_time > lastBuildDate:
 
 
 @app.route('/api/ping', methods=['GET'])
+@cross_origin()
 def ping_response():
     """Simple ping response."""
     return jsonify({"lastBuildDate": db.get("lastBuildDate").decode("utf-8")}), 200
@@ -83,6 +87,7 @@ def get_shows_by_date(date):
 
 
 @app.route('/api/latest', methods=['GET'])
+@cross_origin()
 def get_latest_added():
     limit = int(request.args.get('limit', 20))
     latest_shows_added = db.lrange("dateListed", 0, limit - 1)
