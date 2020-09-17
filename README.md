@@ -1,6 +1,6 @@
 # rss-to-api
 
-rss-to-api is a Flask API created from the Toronto RSS feed of justshows.com Currently deployed here: https://justshowsapi.herokuapp.com/latest
+rss-to-api is a Flask API created from the Toronto RSS feed of justshows.com Currently deployed here: https://justshowsapi.herokuapp.com/api/latest
 
 ## Installation
 
